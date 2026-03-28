@@ -101,3 +101,27 @@
 - Guide Élie through NotebookLM podcast generation and interactive learning
 
 ***
+
+## 2026-03-28 — Logistics and repo strategy (Adrien B.)
+
+**Goal**: Clarify practical setup for tomorrow and repo creation workflow.
+
+**What we decided**:
+- **Desktop Commander**: Élie to install. It's an MCP server that gives Cowork direct access to Mac terminal and filesystem (needed for git push/pull from Cowork, which is otherwise impossible from the sandboxed VM).
+- **Repo creation workflow**: OpenClaw and micro-app repos will be created on **Élie's** GitHub account (not adrbla). Adrien (adrbla) added as collaborator. Each repo gets the full "framework" structure from CLAUDE-CW.md template (code project version): CLAUDE.md, DEVS.md, context/ (vision, backlog, decisions, journal, tech-stack, references/).
+- **Repo layout confirmed**:
+  ```
+  framework/
+  ├── ebab/              # master project (knowledge, context, roadmap)
+  ├── openclaw-elie/     # OpenClaw setup + config (Élie's GitHub)
+  └── micro-app-elie/    # micro-app showcase (Élie's GitHub)
+  ```
+- Repos are siblings, NOT nested. Each is an independent git repo with its own framework.
+- CLAUDE-CW.md (code template) uploaded and read — will be used as basis for CLAUDE.md in code repos.
+
+**Next steps**:
+- Guide Élie through Desktop Commander install
+- Guide Élie through repo creation on his GitHub account
+- Generate framework structure for each repo when ready (OpenClaw Sunday 29, micro-app week 2)
+
+***

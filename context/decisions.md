@@ -59,3 +59,15 @@
 **Consequences**: Need DR insights fully absorbed before conception session. The micro-app brief (`output/micro-app-design.md`) must articulate what it demonstrates and to whom.
 
 ***
+
+## 2026-03-28 – Repos on Élie's GitHub, framework from CLAUDE-CW.md
+
+**Context**: Need separate repos for OpenClaw and micro-app(s), at same level as ebab. Can't nest git repos. Need to decide who owns the repos and how to structure them.
+
+**Decision**: Repos created on Élie's GitHub account (not adrbla). Adrien added as collaborator. Each repo gets the full "framework" structure based on CLAUDE-CW.md code project template: CLAUDE.md, DEVS.md, context/ (vision, backlog, decisions, journal, tech-stack, references/). Claude (in Cowork) guides Élie through repo creation and generates the framework files.
+
+**Rejected alternatives**: Creating repos on adrbla's account (doesn't reflect Élie's ownership/portfolio), skipping the framework structure (would lose persistence and workflow benefits).
+
+**Consequences**: Élie needs `gh` CLI authenticated on his Mac. Desktop Commander needed in Cowork to execute git operations. Framework generation happens at repo creation time (OpenClaw: Sunday 29, micro-app: week 2).
+
+***
