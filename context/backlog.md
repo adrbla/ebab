@@ -1,9 +1,11 @@
 # Backlog – EBAB
 
 ## Now (immediate priority)
-- [ ] Bootstrap interview with Élie (Cowork session → elie-profile.md)
-- [ ] Prepare calibrated Deep Research prompt: NBIM and AI — their AI strategy, internal tools, what they expect from investment professionals, team structure, public communications on AI adoption
-- [ ] Prepare calibrated Deep Research prompt: other key players — funds, asset managers, and financial institutions in Norway and Europe actively adopting AI; what roles are emerging, what profiles they seek
+- [x] Bootstrap interview with Élie (Cowork session → elie-profile.md) — completed 2026-03-27
+- [x] Prepare calibrated Deep Research prompt: NBIM — `output/DR1-prompt-NBIM.md` — completed 2026-03-28
+- [x] Prepare calibrated Deep Research prompt: Norwegian investment actors — `output/DR2-prompt-Norway-actors.md` — completed 2026-03-28
+- [x] Prepare calibrated Deep Research prompt: AI adoption buy-side global — `output/DR3-prompt-buyside-AI-global.md` — completed 2026-03-28
+- [ ] **LAUNCH** the 3 Deep Research prompts (ChatGPT Deep Research or Perplexity) and save outputs in `context/references/`
 - [ ] Define the detailed 4-week roadmap based on interview output + research findings
 
 ## Next (upcoming)

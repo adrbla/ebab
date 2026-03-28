@@ -28,3 +28,29 @@
 - Build detailed 4-week roadmap from interview + research outputs.
 
 ***
+
+## 2026-03-28 — Deep Research prompts (Élie B.)
+
+**Goal**: Produce three calibrated Deep Research prompts to feed the research pillar of the program.
+
+**What we did**:
+- Conducted exploratory web research on NBIM AI strategy, Norwegian investment actors, and buy-side AI adoption globally.
+- Key findings from exploration: NBIM is one of the most advanced institutional AI adopters globally (Investment Simulator, Claude for ESG screening, AI ambassador program, hiring freeze to focus on AI, $400M trading cost savings target, Strategy 2028 "all-in on AI"). The Norwegian broader landscape is less documented but includes Storebrand, DNB AM, Ferd, Canica, and a range of family offices managing $720B+ in the Nordics. The global buy-side AI landscape is rapidly maturing — by 2025 top funds are operationally reliant on AI, not just experimenting.
+- Wrote three fully calibrated Deep Research prompts: (1) NBIM deep dive, (2) Norwegian investment actors landscape, (3) AI adoption in buy-side investment management globally.
+- Prompts are saved in `output/`. Each includes: full context framing, detailed question sets organized by theme, output format specification, and a quality bar.
+- Updated backlog (bootstrap interview checked off, 3 prompt tasks checked off, new "launch" task added).
+- Updated sources.md with all web sources consulted during exploratory research.
+
+**Decisions**:
+- Three-prompt structure validated: NBIM (depth) + Norway actors (landscape) + buy-side global (substance for AI fluency).
+- Prompts calibrated for ChatGPT Deep Research or Perplexity Deep Research — either tool should work.
+
+**Open questions**:
+- **For Élie**: Which platform will you use to run the Deep Research? (ChatGPT Deep Research recommended for depth on NBIM and buy-side global; Perplexity useful for faster iteration on Norway actors)
+- **For Adrien**: Review the three prompts — any adjustment to scope or framing before launch?
+
+**Next steps**:
+- Launch the 3 DR prompts and save outputs in `context/references/`
+- Build the 4-week roadmap (can start a draft in parallel with DR, refine once results are in)
+
+***
