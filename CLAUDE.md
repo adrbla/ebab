@@ -2,7 +2,7 @@
 
 ## Context
 
-This project is a structured AI literacy program for Élie Blaise, a finance professional (L/S equity analyst) preparing for a career move to Norway. The goal is to build a solid, credible foundation of AI knowledge *and* hands-on experience in approximately 100–120 hours over 4 weeks (hard deadline: week of April 24, 2026).
+This project is a structured AI literacy program for Élie Blaise, a finance professional (L/S equity analyst) preparing for a career move to Norway. The goal is to build a solid, credible foundation of AI knowledge *and* hands-on experience in an initial phase of approximately 100–120 hours over 4 weeks (hard deadline: week of April 24, 2026). This is a launchpad — Phase 1 of a longer journey, not the destination.
 
 This is NOT "AI for AI's sake." The program is grounded in Élie's real professional context: investment analysis, fund management, and the growing adoption of AI tools across the finance industry. The Norwegian Government Pension Fund (NBIM) is one concrete anchor, but the scope is broader — any role where AI fluency is a differentiator.
 

@@ -33,10 +33,16 @@ By April 24, 2026 (hard deadline — Norway trip):
 - Building production-grade applications
 - Comprehensive academic coverage of AI/ML theory
 
+## Phasing
+
+This ~100–120 hour block is **Phase 1 — the initial exploration and experience phase**. It is a launchpad, not a destination. The goal is to build enough understanding, hands-on experience, and momentum that Élie can continue growing autonomously afterward, into subsequent phases that will emerge naturally from what he discovers and builds here.
+
+Phase 1 ends with the Norway trip (April 24, 2026). What comes after will be shaped by what Élie learns about himself, the landscape, and the opportunities during this initial immersion.
+
 ## Constraints
 
-- **Time**: ~100–120 hours over 4 weeks (4 weekends full-time + weekday grappillage)
-- **Hard deadline**: Norway trip, week of April 24, 2026
+- **Time (Phase 1)**: ~100–120 hours over 4 weeks (4 weekends full-time + weekday grappillage)
+- **Hard deadline (Phase 1)**: Norway trip, week of April 24, 2026
 - **Technical starting point**: daily ChatGPT/Claude user, minimal terminal experience
 - **Equipment**: Mac Mini with Cursor installed
 - **Availability**: weekends (full days), Fridays (often home), some evenings if momentum
