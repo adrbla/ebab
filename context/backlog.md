@@ -1,7 +1,7 @@
 # Backlog – EBAB
 
 ## Now (immediate priority)
-- [x] Bootstrap interview with Élie (Cowork session → elie-profile.md) — completed 2026-03-27
+- [x] Bootstrap interview with Élie (Cowork session → elie-profile.md) — completed 2026-03-28
 - [x] Prepare calibrated Deep Research prompt: NBIM — `output/DR1-prompt-NBIM.md` — completed 2026-03-28
 - [x] Prepare calibrated Deep Research prompt: Norwegian investment actors — `output/DR2-prompt-Norway-actors.md` — completed 2026-03-28
 - [x] Prepare calibrated Deep Research prompt: AI adoption buy-side global — `output/DR3-prompt-buyside-AI-global.md` — completed 2026-03-28
@@ -25,4 +25,4 @@
 *This backlog is not closed — new items will emerge from research, the interview, and working sessions.*
 
 ***
-*Last updated: 2026-03-27*
+*Last updated: 2026-03-28*

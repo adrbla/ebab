@@ -29,6 +29,23 @@
 
 ***
 
+## 2026-03-28 — Bootstrap interview + DR socle + NotebookLM (Adrien B.)
+
+**Goal**: Conduct Élie's bootstrap interview and generate first Deep Research report.
+
+**What we did**:
+- Conducted bootstrap interview with Élie in Cowork vocal mode (~30-45 min). Output: `context/references/elie_profile.md` — comprehensive profile covering trajectory, projections, relationship to tech/AI, learning style, interests, and calibration signals.
+- Generated Deep Research report on generative AI fundamentals: `context/references/socle_gen-AI.md` — a pedagogical knowledge base covering core concepts (LLMs, transformers, prompting, RAG, agents, etc.).
+- Set up NotebookLM as a learning tool for Élie: uploaded the DR report, configured for interactive learning (Audio Overview, Quiz, Flashcards, Learning Guide).
+- Clarified phasing in vision.md: the 100–120h block is Phase 1 (exploration/experience), a launchpad for subsequent phases.
+- Updated and expanded backlog with detailed, pedagogically-described items.
+
+**Important decisions**:
+- NotebookLM for knowledge acquisition (not for fund-specific research) — Élie uses it to absorb and test his understanding of AI fundamentals.
+- Phase 1 framing: explicitly a beginning, not an end. Subsequent phases will emerge from what Élie discovers here.
+
+***
+
 ## 2026-03-28 — Deep Research prompts (Élie B.)
 
 **Goal**: Produce three calibrated Deep Research prompts to feed the research pillar of the program.
@@ -38,8 +55,6 @@
 - Key findings from exploration: NBIM is one of the most advanced institutional AI adopters globally (Investment Simulator, Claude for ESG screening, AI ambassador program, hiring freeze to focus on AI, $400M trading cost savings target, Strategy 2028 "all-in on AI"). The Norwegian broader landscape is less documented but includes Storebrand, DNB AM, Ferd, Canica, and a range of family offices managing $720B+ in the Nordics. The global buy-side AI landscape is rapidly maturing — by 2025 top funds are operationally reliant on AI, not just experimenting.
 - Wrote three fully calibrated Deep Research prompts: (1) NBIM deep dive, (2) Norwegian investment actors landscape, (3) AI adoption in buy-side investment management globally.
 - Prompts are saved in `output/`. Each includes: full context framing, detailed question sets organized by theme, output format specification, and a quality bar.
-- Updated backlog (bootstrap interview checked off, 3 prompt tasks checked off, new "launch" task added).
-- Updated sources.md with all web sources consulted during exploratory research.
 
 **Decisions**:
 - Three-prompt structure validated: NBIM (depth) + Norway actors (landscape) + buy-side global (substance for AI fluency).

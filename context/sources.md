@@ -38,7 +38,13 @@
 ## Profiles & context
 | Date | Description | Source | Location |
 |------|-------------|--------|----------|
-| 2026-03-27 | Élie Blaise LinkedIn profile (retrieved via web) | LinkedIn | *Summary in CLAUDE.md, full profile TBD in context/references/elie-profile.md* |
+| 2026-03-27 | Élie Blaise LinkedIn profile (retrieved via web) | LinkedIn | *Summary in CLAUDE.md* |
+| 2026-03-28 | Élie Blaise bootstrap interview profile | Cowork interview (vocal) | `context/references/elie_profile.md` |
+
+## Deep Research reports
+| Date | Title / Description | Type | Location |
+|------|---------------------|------|----------|
+| 2026-03-28 | Fondamentaux de l'IA Générative — socle de connaissances | Deep Research | `context/references/socle_gen-AI.md` |
 
 ***
-*Last updated: 2026-03-27*
+*Last updated: 2026-03-28*
