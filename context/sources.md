@@ -1,9 +1,11 @@
 # Sources – EBAB
 
-## External research
-| Date | Title / Description | Type | Location |
-|------|---------------------|------|----------|
-| — | *Deep Research outputs pending — prompts ready, to be launched* | — | `output/DR1-prompt-NBIM.md`, `output/DR2-prompt-Norway-actors.md`, `output/DR3-prompt-buyside-AI-global.md` |
+## External research — DR prompts
+| Date | Title / Description | Location |
+|------|---------------------|----------|
+| 2026-03-28 | DR prompt: NBIM AI strategy | `output/DR1-prompt-NBIM.md` |
+| 2026-03-28 | DR prompt: Norwegian investment actors | `output/DR2-prompt-Norway-actors.md` |
+| 2026-03-28 | DR prompt: AI adoption buy-side global | `output/DR3-prompt-buyside-AI-global.md` |
 
 ## Web sources consulted (exploratory research 2026-03-28)
 | Date | Title | Source | URL |
@@ -45,6 +47,9 @@
 | Date | Title / Description | Type | Location |
 |------|---------------------|------|----------|
 | 2026-03-28 | Fondamentaux de l'IA Générative — socle de connaissances | Deep Research | `context/references/socle_gen-AI.md` |
+| 2026-03-28 | The AI Transformation of NBIM — institutional blueprint | Deep Research | `context/references/dr-reports/DR1-NBIM AI Strategy Deep Dive.md` |
+| 2026-03-28 | Norwegian Investment Landscape — institutional AI adoption mapping | Deep Research | `context/references/dr-reports/DR2-Norwegian Investment AI Landscape.md` |
+| 2026-03-28 | AI in Buy-Side Investment Management — global convergence 2025-2026 | Deep Research | `context/references/dr-reports/DR3-AI in Buy-Side Investment Management.md` |
 
 ***
 *Last updated: 2026-03-28*

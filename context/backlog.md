@@ -2,27 +2,35 @@
 
 ## Now (immediate priority)
 - [x] Bootstrap interview with Élie (Cowork session → elie-profile.md) — completed 2026-03-28
-- [x] Prepare calibrated Deep Research prompt: NBIM — `output/DR1-prompt-NBIM.md` — completed 2026-03-28
-- [x] Prepare calibrated Deep Research prompt: Norwegian investment actors — `output/DR2-prompt-Norway-actors.md` — completed 2026-03-28
-- [x] Prepare calibrated Deep Research prompt: AI adoption buy-side global — `output/DR3-prompt-buyside-AI-global.md` — completed 2026-03-28
-- [ ] **LAUNCH** the 3 Deep Research prompts (ChatGPT Deep Research or Perplexity) and save outputs in `context/references/`
-- [ ] Define the detailed 4-week roadmap based on interview output + research findings
+- [x] Prepare calibrated Deep Research prompts (3) — completed 2026-03-28
+- [x] Launch DR prompts and receive reports — completed 2026-03-28, saved in `context/references/dr-reports/`
+- [x] Define the 4-week roadmap — completed 2026-03-28, see `context/roadmap.md`
+- [ ] **SUNDAY 29**: Set up NotebookLM (2 notebooks: "Socle IA" + "AI & Finance") — generate podcasts, do first quiz
+- [ ] **SUNDAY 29**: Conceive OpenClaw setup with Adrien → `output/openclaw-design.md`
+- [ ] **SUNDAY 29**: Install OpenClaw on Mac Mini with Claude Code (new repo `framework/openclaw-elie/`)
 
-## Next (upcoming)
-- [ ] Prepare a knowledge acquisition roadmap for Élie — a structured learning path that explains every concept and action in plain language (what it is, why it matters, how it connects to what he already knows). No jargon without explanation. This is the pedagogical backbone of the program.
-- [ ] Skills: define custom skills for the project, explore existing repos (Anthropic, community) — with Adrien in Cowork or Claude Code
-- [ ] Set up Open Claw / Patchwork on Élie's Mac Mini — install and configure an agentic assistant (Open Claw is an open-source personal AI assistant that can run locally) for daily use: monitoring, research, automated briefings
-- [ ] Design agentic monitoring workflow — configure daily automated briefings on target funds + AI-in-finance news, using tools like MCP servers (standardized connectors that let AI assistants access external services) and skills (reusable instruction sets for specific tasks)
-- [ ] Configure MCP servers and skills for Élie's setup
+## Next (upcoming — week 1 weekdays + week 2)
+- [ ] NotebookLM learning path: podcasts interactifs (3 épisodes socle IA, 2 épisodes finance), quiz Hard, flashcards — throughout week 1
+- [ ] OpenClaw: configure first skills (web search, RSS feeds), test daily briefing — Friday week 1
+- [ ] Explore ClawHub: browse existing skills, install 2-3 relevant ones — Friday evening week 1
+- [ ] NotebookLM advanced: Debate episodes, targeted deep dives on thesis construction + NBIM vibe-coding — week 2 weekend
+- [ ] Write personal synthesis: "Ce que je comprends de l'AI dans la finance en 2026" — Saturday week 2
+- [ ] OpenClaw: finance-specific skills, custom MCP servers, "company primer" workflow — Sunday week 2
+- [ ] Conceive micro-app(s) with Adrien in Cowork — Saturday week 2 afternoon
+- [ ] Start vibe-coding micro-app with Claude Code (new repo `framework/micro-app-elie/`) — Saturday week 2
 
-## Later (to explore)
-- [ ] Based on research outputs (DR reports, monitoring insights from Open Claw), identify and scope showcase micro-application(s) — could be one focused app or several small ones; must be grounded in real needs identified through research, not "AI for AI's sake"
-- [ ] Build showcase micro-application(s) with Claude Code
+## Later (weeks 3-4)
+- [ ] Micro-app intensive build (week 3 weekends + weekday sessions)
+- [ ] OpenClaw: custom skills, advanced workflows, channel expansion
+- [ ] Write AI cheat sheet: 20 concepts Élie can explain in interview with finance examples
+- [ ] Write AI narrative: Élie's story of his learning journey and what he built
+- [ ] Dry-runs: simulated interviews with Claude (adversarial mode) and with Adrien
+- [ ] Prepare smart questions for Norway interlocutors (based on DR insights)
+- [ ] Skills: define custom skills for the project, explore repos (Anthropic, community)
 - [ ] Basic Python literacy track (if time and interest allow)
-- [ ] Prepare interview narratives — Élie's "AI story" for professional conversations
-- [ ] Post-deadline: continued learning roadmap
+- [ ] Post Phase 1: continued learning roadmap
 
-*This backlog is not closed — new items will emerge from research, the interview, and working sessions.*
+*This backlog is not closed — new items will emerge from working sessions.*
 
 ***
 *Last updated: 2026-03-28*

@@ -23,3 +23,39 @@
 **Consequences**: The interview must happen before the first working session. Everything downstream depends on its quality.
 
 ***
+
+## 2026-03-28 – NotebookLM as primary learning tool
+
+**Context**: Need an active (not passive) learning method adapted to Élie's learning style (dialogue, hands-on, trial and error). Traditional reading or watching videos would not fit.
+
+**Decision**: Use NotebookLM with 2 separate notebooks ("Socle IA" from DR socle, "AI & Finance" from 3 DR reports). Learning via interactive podcasts (Audio Overviews with pause/question mode), quiz, flashcards, and Learning Guide. Podcasts are active learning tools — Élie interrupts, asks questions, digs deeper.
+
+**Rejected alternatives**: Pure reading of DR reports (too passive for Élie's learning style), generic online courses (too slow, not calibrated to his finance context), Claude chat only (less structured for knowledge retention).
+
+**Consequences**: NotebookLM becomes the knowledge absorption backbone for weeks 1-2. The interactive podcast approach should fit Élie's preference for dialogue-based learning.
+
+***
+
+## 2026-03-28 – OpenClaw: conception in Cowork, install in Claude Code
+
+**Context**: OpenClaw requires terminal access for installation (`openclaw onboard`) and configuration (skills, MCP servers). Cowork can guide but can't execute terminal commands.
+
+**Decision**: Design the OpenClaw setup (what sources, what agents, what channels) with Adrien in Cowork, then install and configure in Claude Code. Each major component (OpenClaw, micro-app) gets its own repo at `framework/` level alongside ebab.
+
+**Rejected alternatives**: Install in Cowork (not possible — no terminal execution), install without prior design (would lead to generic uncalibrated setup).
+
+**Consequences**: Sunday 29 afternoon: conception session in Cowork → `output/openclaw-design.md`, then Claude Code session for install. Separate repos keep things clean.
+
+***
+
+## 2026-03-28 – Micro-app(s) oriented "meta", not personal pain point
+
+**Context**: The micro-app must serve as a showcase for potential employers (NBIM and others). It must demonstrate genuine understanding of how AI transforms investment, not just surface-level automation.
+
+**Decision**: Micro-app conception grounded in DR findings. Must "speak" to interlocutors — show understanding of real use cases, not generic AI application. 1 app or 3 smaller ones — to be decided with Élie based on DR insights. Conception week 2 (after knowledge foundation is solid), build weeks 2-3, polish week 4.
+
+**Rejected alternatives**: Personal productivity tool (wouldn't demonstrate finance+AI understanding to interlocutors), generic AI demo (too superficial), premature build before research is absorbed (would lack depth).
+
+**Consequences**: Need DR insights fully absorbed before conception session. The micro-app brief (`output/micro-app-design.md`) must articulate what it demonstrates and to whom.
+
+***

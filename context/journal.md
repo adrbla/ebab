@@ -69,3 +69,35 @@
 - Build the 4-week roadmap (can start a draft in parallel with DR, refine once results are in)
 
 ***
+
+## 2026-03-28 — DR reports received + roadmap drafted (Adrien B.)
+
+**Goal**: Integrate DR reports, research tooling options, draft the 4-week roadmap.
+
+**What we did**:
+- Received and indexed 3 Deep Research reports in `context/references/dr-reports/`:
+  - DR1: NBIM AI Strategy Deep Dive — extremely detailed, covers Strategy 2028, Investment Simulator, vibe-coding culture, ESG screening, hiring freeze, talent expectations
+  - DR2: Norwegian Investment AI Landscape — maps 15+ organizations (Storebrand, Ferd, Aker, Skagen, Sissener, Arctic, etc.) with AI maturity and analyst fit ratings
+  - DR3: AI in Buy-Side Investment Management — global view of how AI is transforming the fundamental analyst workflow (screening, thesis construction, monitoring, portfolio construction)
+- Researched NotebookLM podcast/tutorial features: Audio Overviews support multiple formats (Deep Dive, Brief, Critique, Debate), customizable focus areas, interactive mode (pause + ask questions), plus quiz/flashcards/Learning Guide
+- Researched OpenClaw: open-source personal AI assistant, runs on Mac Mini 24/7, accessible via Telegram/iMessage/web. Install via terminal (`openclaw onboard`), supports MCP servers and custom skills. 13,000+ skills on ClawHub. Install best done with Claude Code (needs terminal access).
+- Drafted comprehensive 4-week roadmap (`context/roadmap.md`):
+  - Week 1: Foundations (NotebookLM socle IA + contexte finance, OpenClaw conception + install)
+  - Week 2: Deepening + Design (advanced NotebookLM, OpenClaw skills/MCP, micro-app conception + first vibe-coding)
+  - Week 3: Building (micro-app intensive, OpenClaw refinement, narrative prep)
+  - Week 4: Consolidation (polish, dry-runs, Norway prep)
+
+**Important decisions**:
+- NotebookLM as primary learning tool for both IA fundamentals and finance context (2 separate notebooks)
+- NotebookLM podcast episodes to be active learning (interactive mode, not passive listening)
+- OpenClaw conception in Cowork, installation in Claude Code (needs terminal)
+- OpenClaw and micro-app(s) in separate repos at same level as ebab (`framework/openclaw-elie/`, `framework/micro-app-elie/`)
+- Micro-app(s) oriented "meta" — must demonstrate deep understanding to interlocutors (NBIM etc.), not just solve a personal pain point
+- Micro-app conception week 2, build weeks 2-3, polish week 4
+
+**Next steps**:
+- Sunday 29: Élie's first full day — NotebookLM setup + OpenClaw conception + install
+- Review roadmap with Élie and adjust as needed
+- Guide Élie through NotebookLM podcast generation and interactive learning
+
+***
