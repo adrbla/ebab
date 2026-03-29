@@ -22,6 +22,16 @@
 | 2026-03-28 | AI in Investment Management Beyond Efficiency Gains (Oct 2025) | Citi | https://www.citigroup.com/rcs/citigpa/storage/public/AI_in_Investment_Management.pdf |
 | 2026-03-28 | Top 10 Family Offices in Norway 2025 | Dakota | https://www.dakota.com/resources/blog/top-10-family-offices-in-norway-2025-insights |
 
+## Tools & repos — Advanced Vibe Coding + Sécurité
+| Date | Name | Type | URL | Notes |
+|------|------|------|-----|-------|
+| 2026-03-29 | Superpowers | Claude Code skills framework | https://github.com/obra/superpowers | Workflow structuré plan→exec→test→review |
+| 2026-03-29 | Everything Claude Code | Playbook complet | https://github.com/affaan-m/everything-claude-code | 30+ subagents, 135+ skills, slash commands |
+| 2026-03-29 | GET SHIT DONE | Context engineering | https://github.com/gsd-build/get-shit-done | Fresh contexts, commits atomiques, anti-context rot |
+| 2026-03-29 | Claude-Guardrails | Sécurité (hooks) | https://github.com/dwarvesf/claude-guardrails | Deny rules, scan anti-injection, protect .env/SSH |
+| 2026-03-29 | cc-openclaw | Claude Code skills pour OpenClaw | https://github.com/rahulsub-be/cc-openclaw | 9 slash commands : new-agent, add-channel, add-cron, etc. |
+| 2026-03-29 | Managing OpenClaw with Claude Code | Article (Substack) | https://trilogyai.substack.com/p/managing-openclaw-with-claude-code | Référence pour cc-openclaw |
+
 ## Articles & publications
 | Date | Title | Author/Source | Location |
 |------|-------|---------------|----------|

@@ -9,6 +9,7 @@
 - [ ] **SUNDAY 29**: Set up NotebookLM (2 notebooks: "Socle IA" + "AI & Finance") — generate podcasts, do first quiz
 - [ ] **SUNDAY 29**: Conceive OpenClaw setup with Adrien → `output/openclaw-design.md`
 - [ ] **SUNDAY 29**: Install OpenClaw on Mac Mini with Claude Code (new repo `framework/openclaw-elie/`)
+- [ ] **SUNDAY 29**: Install cc-openclaw skills ([rahulsub-be/cc-openclaw](https://github.com/rahulsub-be/cc-openclaw)) — 9 slash commands pour piloter OpenClaw depuis Claude Code (new-agent, add-channel, add-cron, add-secret, status, restart, etc.)
 
 ## Next (upcoming — week 1 weekdays + week 2)
 - [ ] NotebookLM learning path: podcasts interactifs (3 épisodes socle IA, 2 épisodes finance), quiz Hard, flashcards — throughout week 1

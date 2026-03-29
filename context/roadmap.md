@@ -72,7 +72,8 @@ Ce document est une base vivante — il sera mis à jour au fur et à mesure ave
    - Configurer le provider (Anthropic API key)
    - Connecter Telegram
    - Vérifier que l'agent répond
-   - Ne pas encore configurer les skills — juste le squelette qui fonctionne
+   - Installer [cc-openclaw](https://github.com/rahulsub-be/cc-openclaw) : `git clone` + `stow` — 9 Claude Code skills pour piloter OpenClaw (/openclaw-new-agent, /openclaw-add-channel, /openclaw-add-cron, /openclaw-add-secret, /openclaw-status, /openclaw-restart, etc.)
+   - Vérifier que les slash commands fonctionnent dans Claude Code
 
 ### Semaine (lundi 30 – vendredi 4 avril) — ~18-22h
 

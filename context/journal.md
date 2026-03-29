@@ -148,7 +148,7 @@
 - Session placée stratégiquement avant le premier vibe-coding pour qu'Élie démarre avec un setup avancé, pas naïf
 
 **Next steps**:
-- 2026-03-29 : kickoff avec Élie — NotebookLM + OpenClaw
+- 2026-03-29 : kickoff avec Élie — NotebookLM + OpenClaw + cc-openclaw (skills Claude Code pour piloter OC)
 - 2026-04-05 : session advanced vibe coding + sécurité avant premiers pas micro-app
 
 ***
