@@ -13,6 +13,7 @@
 - [ ] NotebookLM learning path: podcasts interactifs (3 épisodes socle IA, 2 épisodes finance), quiz Hard, flashcards — throughout week 1
 - [ ] OpenClaw: configure first skills (web search, RSS feeds), test daily briefing — Friday week 1
 - [ ] Explore ClawHub: browse existing skills, install 2-3 relevant ones — Friday evening week 1
+- [ ] **Advanced Vibe Coding + Sécurité setup** : installer et comprendre 5 outils (Superpowers, Everything Claude Code, GET SHIT DONE, Claude-Guardrails, sandboxing natif) — commandes de base, être capable d'expliquer chaque outil — Saturday week 2 afternoon, avant premiers pas vibe-coding
 - [ ] NotebookLM advanced: Debate episodes, targeted deep dives on thesis construction + NBIM vibe-coding — week 2 weekend
 - [ ] Write personal synthesis: "Ce que je comprends de l'AI dans la finance en 2026" — Saturday week 2
 - [ ] OpenClaw: finance-specific skills, custom MCP servers, "company primer" workflow — Sunday week 2

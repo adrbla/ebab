@@ -125,3 +125,30 @@
 - Generate framework structure for each repo when ready (OpenClaw Sunday 29, micro-app week 2)
 
 ***
+
+## 2026-03-29 — Advanced Vibe Coding + Sécurité (Adrien B.)
+
+**Goal**: Sélectionner les outils "advanced vibe coding" et sécurité pour le programme d'Élie.
+
+**What we did**:
+- Analysé 7 repos GitHub candidats pour le volet "advanced vibe coding" :
+  - claude-mem (persistent memory MCP), ui-ux-pro-max-skill (design system skill), LightRAG (RAG framework), everything-claude-code (playbook complet), superpowers (workflow structuré), awesome-claude-code (curated list), get-shit-done (context engineering)
+- Sélectionné 3 repos pour Élie :
+  - **Superpowers** (obra) — workflow plan→exec→test→review, analogie directe thèse d'investissement
+  - **Everything Claude Code** (affaan-m) — playbook de référence, 30+ subagents, 135+ skills
+  - **GET SHIT DONE** (gsd-build) — context engineering pour projets longs, fresh contexts, commits atomiques
+- Sélectionné 2 systèmes sécurité :
+  - **Claude-Guardrails** (dwarvesf) — hooks déterministes, deny rules, scan anti-injection
+  - **Sandboxing natif Claude Code** — isolation filesystem/réseau, permissions par glob patterns
+- Inséré une session dédiée (~2h) dans la roadmap semaine 2 samedi après-midi, avant les premiers pas de vibe-coding
+- Mis à jour backlog avec la tâche correspondante
+
+**Important decisions**:
+- 5 outils à installer et comprendre (pas juste installer) : Élie doit pouvoir expliquer chaque outil et répondre à "quelle commande utilises-tu le plus souvent dans Claude Code ?"
+- Session placée stratégiquement avant le premier vibe-coding pour qu'Élie démarre avec un setup avancé, pas naïf
+
+**Next steps**:
+- 2026-03-29 : kickoff avec Élie — NotebookLM + OpenClaw
+- 2026-04-05 : session advanced vibe coding + sécurité avant premiers pas micro-app
+
+***

@@ -118,9 +118,21 @@ Ce document est une base vivante — il sera mis à jour au fur et à mesure ave
    - Ajuster les sources, les skills, le format du briefing
    - Identifier les MCP servers à ajouter (financial data feeds, etc.)
 
-**Après-midi (4h) — Conception micro-app(s)**
+**Après-midi (4h) — Setup avancé + Conception micro-app(s)**
 
-4. **Session de conception avec Adrien** (~2h) — dans Cowork
+4. **Advanced Vibe Coding + Sécurité : setup et compréhension** (~2h) — avec Claude Code
+   - **Objectif** : avant de commencer à vibe-coder, installer et comprendre les outils qui font la différence entre un usage naïf et un usage avancé de Claude Code.
+   - **Installer 5 outils** :
+     - [Superpowers](https://github.com/obra/superpowers) — framework qui impose un workflow structuré : plan → exécution → test → review. Analogie directe avec la construction de thèse d'investissement.
+     - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) — playbook complet : 30+ subagents, 135+ skills, slash commands. Le setup de référence pour du Claude Code en production.
+     - [GET SHIT DONE](https://github.com/gsd-build/get-shit-done) — context engineering pour projets longs : phases structurées, fresh contexts, commits atomiques. Résout le "context rot".
+     - [Claude-Guardrails](https://github.com/dwarvesf/claude-guardrails) — hooks de sécurité déterministes : bloque commandes dangereuses (rm -rf, force push), protège .env/SSH keys, scan anti-injection. Version "lite" ou "full".
+     - Sandboxing natif Claude Code — isolation filesystem/réseau, permissions par glob patterns, "Auto mode".
+   - **Comprendre ce que chaque outil fait** : pas juste installer — Élie doit pouvoir expliquer en une phrase ce que fait chaque outil et pourquoi c'est important.
+   - **Commandes de base** : explorer les commandes principales de Superpowers et Everything Claude Code. Objectif : être capable de répondre à une question comme "Quelle est la commande que tu utilises le plus souvent dans Claude Code ?"
+   - **Pourquoi c'est important** : en entretien, la différence entre "j'ai utilisé Claude Code" et "j'ai un setup structuré avec guardrails, workflow discipliné et context engineering" est la différence entre un touriste et quelqu'un qui comprend le sujet.
+
+5. **Session de conception micro-app avec Adrien** (~2h) — dans Cowork
    - Sur la base des DR : quels pain points / opportunités ressortent ?
    - Brainstorm : quelle(s) micro-app(s) démontreraient une compréhension profonde de l'AI appliquée à l'investissement ?
    - Critères : ça doit "parler" à un interlocuteur type NBIM, montrer qu'Élie comprend comment l'AI transforme le métier (pas juste automatiser), être réalisable en ~20-30h de vibe-coding
@@ -131,7 +143,7 @@ Ce document est une base vivante — il sera mis à jour au fur et à mesure ave
      - Un dashboard de veille AI-powered sur un secteur/thème
    - **Livrable** : un brief de conception (`output/micro-app-design.md`) — 1 ou 3 apps, scope, stack, ce que ça démontre
 
-5. **Premiers pas vibe-coding** (~2h) — avec Claude Code
+6. **Premiers pas vibe-coding** (~2h) — avec Claude Code
    - Sur la base du brief, commencer le scaffolding de la micro-app principale
    - Élie expérimente : décrire ce qu'il veut en langage naturel, Claude Code génère le code
    - L'objectif n'est PAS de finir — c'est de comprendre le flow du vibe-coding
