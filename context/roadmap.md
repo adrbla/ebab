@@ -74,23 +74,31 @@ Ce document est une base vivante — il sera mis à jour au fur et à mesure ave
    - Vérifier que l'agent répond
    - Ne pas encore configurer les skills — juste le squelette qui fonctionne
 
-### Semaine (lundi 31 – vendredi 4 avril) — ~10-12h
+### Semaine (lundi 30 – vendredi 4 avril) — ~18-22h
+
+**Ajustement** : +1-2h par après-midi disponible cette semaine → heures supplémentaires utilisées pour avancer sur NotebookLM et amorcer OpenClaw avant le weekend du 5 avril.
 
 **Objectif semaine** : absorber le socle IA et le contexte finance via NotebookLM, commencer à configurer OpenClaw.
 
 | Créneau | Activité | Durée | Notes |
 |---------|----------|-------|-------|
-| Lun-Mar soir | Écouter les épisodes NotebookLM restants (socle IA épisodes 2-3) en mode interactif | 2×1h | Pause + questions aux hosts. Prendre des notes des concepts clés. |
-| Mer soir | Quiz NotebookLM socle IA (difficulté Hard) + flashcards | 1h | Tester la rétention après quelques jours. |
-| Jeu soir | Épisodes NotebookLM "AI & Finance" (NBIM + paysage norvégien) en interactif | 1h30 | Focus : quels sont les vrais use cases AI chez NBIM ? Quels acteurs correspondent le plus à mon profil ? |
-| Vendredi (home) | Session Claude Code : configurer les premières skills OpenClaw | 3h | Installer les skills de veille (web search, RSS). Configurer les premières sources. Tester un premier briefing. |
-| Vendredi soir (optionnel) | Explorer le ClawHub — parcourir les skills disponibles, en installer 2-3 qui semblent utiles | 1-2h | Curiosité guidée : qu'est-ce qui existe ? Qu'est-ce qui pourrait servir ? |
+| Lun matin/après-midi | Écouter épisode NotebookLM socle IA #2 en interactif | 1-2h | "Prompts et ingénierie de prompt" — pause + questions aux hosts. |
+| Lun soir | Écouter épisode NotebookLM socle IA #3 en interactif | 1h | "RAG, agents, architectures avancées" — niveau conceptuel. |
+| Mar après-midi | Quiz NotebookLM socle IA (difficulté Medium puis Hard) + flashcards | 1-2h | Tester la rétention. Bouton "Explain" à chaque erreur. |
+| Mar soir | Épisodes NotebookLM "AI & Finance" — Deep Dive NBIM | 1h | Focus : que fait le NBIM concrètement ? Ce qu'ils cherchent chez un candidat. |
+| Mer après-midi | Épisodes NotebookLM "AI & Finance" — paysage norvégien + buy-side global | 1-2h | Quels acteurs correspondent à mon profil ? Quels outils AI sont réels vs. hype ? |
+| Mer soir | Synthèse personnelle avec Claude : "ce que je comprends de l'AI en finance" | 1h | Dans ses propres mots — première brique du narratif d'entretien. |
+| Jeu après-midi | Concevoir OpenClaw : définir ce qu'on veut que l'agent fasse | 1-2h | Avec Adrien ou en solo : veille NBIM, acteurs norvégiens, briefing quotidien. Livrable : `output/openclaw-design.md`. |
+| Jeu soir | Quiz Hard NotebookLM "AI & Finance" | 1h | Ancrage du contexte finance. |
+| Vendredi (home) | Session Claude Code : installer OpenClaw + configurer premières skills | 3h | Squelette fonctionnel avec Telegram connecté. |
+| Vendredi après-midi | Explorer le ClawHub — parcourir les skills disponibles, en installer 2-3 | 1-2h | Curiosité guidée : qu'est-ce qui existe ? Qu'est-ce qui pourrait servir ? |
 
 **Ce qu'Élie sait faire à la fin de la semaine 1** :
 - Expliquer ce qu'est un LLM, un token, un prompt, le RAG, un agent — dans ses mots, en reliant à la finance
 - Décrire ce que le NBIM fait avec l'AI et nommer 5+ autres acteurs norvégiens pertinents
 - Utiliser NotebookLM comme outil d'apprentissage (podcasts interactifs, quiz, flashcards)
 - Avoir un OpenClaw qui tourne sur son Mac Mini avec Telegram connecté et les premières skills de veille
+- Avoir une première ébauche de son narratif AI personnel
 
 ---
 
@@ -252,51 +260,20 @@ Ce document est une base vivante — il sera mis à jour au fur et à mesure ave
 
 ### Thème : Consolider, pratiquer, être prêt
 
-### Samedi 19 avril (8h) — Pâques, Élie a vendredi + samedi + dimanche
+**⚠️ Ajustement** : weekend de Pâques (18-19 avril) non disponible. Le weekend du 19-20 avril est retiré du planning. Le contenu prévu est redistribué sur la semaine (lundi-vendredi) et sur le travail avancé des semaines précédentes.
 
-**NB** : Pâques offre potentiellement un jour supplémentaire (vendredi 18 avril). À ajuster.
-
-**Matin (4h) — Polissage final**
-
-1. **Micro-app : derniers ajustements** (~1h)
-   - Bug fixes, polish, déploiement si pertinent
-
-2. **OpenClaw : état final** (~1h)
-   - Dernier check : tout tourne, le briefing est calibré, les skills sont stables
-
-3. **Narratif : consolidation** (~2h)
-   - Finaliser le "AI story" d'Élie : parcours d'apprentissage, ce qu'il a construit, ce qu'il comprend, sa vision
-   - Le structurer comme un pitch naturel, pas un récit linéaire
-   - Sauvegarder dans `output/ai-narrative.md`
-
-**Après-midi (4h) — Préparation entretiens**
-
-4. **Dry-run intensif avec Adrien** (~2h)
-   - Simulation d'entretien : questions techniques IA, questions "fit", questions sur la micro-app
-   - Feedback direct, ajustements
-
-5. **Dry-run avec Claude** (~2h)
-   - Claude joue différents rôles : recruteur NBIM technique, recruteur family office, investisseur curieux
-   - Mode adversarial : "prouve-moi que tu comprends vraiment, pas juste le vocabulaire"
-   - Identifier les derniers trous et les combler
-
-### Dimanche 20 avril (8h)
-
-**Journée buffer / approfondissement**
-
-6. **Selon les besoins** :
-   - Compléter ce qui manque (micro-app, narratif, connaissances)
-   - Approfondir un sujet identifié pendant les dry-runs
-   - Préparer des questions intelligentes à poser aux interlocuteurs en Norvège (basées sur les DR)
-   - Relaxer et laisser décanter si tout est prêt
-
-### Semaine (lundi 21 – mercredi 23 avril) — derniers jours
+### Semaine (lundi 20 – mercredi 23 avril) — ~12-15h
 
 | Créneau | Activité | Durée | Notes |
 |---------|----------|-------|-------|
-| Lun soir | Dernière révision des flashcards + cheat sheet | 1h | Ancrage final. |
-| Mar soir | Relire les DR (NBIM surtout) avec un œil frais | 1h30 | Repérer les détails qui feront la différence en conversation. |
-| Mer soir | Check final avec Adrien | 1h | Go/no-go. Derniers ajustements. |
+| Lun matin/après-midi | Micro-app : derniers ajustements, bug fixes, polish | 2-3h | La micro-app doit être montrable, pas parfaite. |
+| Lun soir | OpenClaw : check final — briefing calibré, skills stables | 1h | Vérifier que tout tourne sans intervention. |
+| Mar après-midi | Narratif : finaliser le "AI story" d'Élie | 2h | Parcours, ce qu'il a construit, sa vision — structuré comme un pitch naturel. Sauvegarder dans `output/ai-narrative.md`. |
+| Mar soir | Dry-run avec Claude : questions techniques AI + fit + micro-app | 1h30 | Claude joue recruteur NBIM. Mode adversarial : "prouve-moi que tu comprends vraiment." |
+| Mer après-midi | Dry-run intensif avec Adrien | 2h | Feedback direct. Identifier les derniers trous. |
+| Mer soir | Révision flashcards + cheat sheet | 1h | Ancrage final avant le départ. |
+| Jeu soir | Relire les DR (NBIM surtout) avec un œil frais | 1h30 | Repérer les détails qui feront la différence en conversation. |
+| Ven matin | Check final avec Adrien — go/no-go | 1h | Derniers ajustements. Questions à poser en Norvège. |
 
 **Ce qu'Élie a à la fin de la semaine 4 (et du Phase 1)** :
 - Une compréhension solide de l'IA générative, de son application en finance, et du paysage norvégien
@@ -309,19 +286,19 @@ Ce document est une base vivante — il sera mis à jour au fur et à mesure ave
 
 ## Budget temps estimé
 
-| Bloc | Heures |
-|------|--------|
-| Semaine 1 — WE (dimanche) | 8 |
-| Semaine 1 — Semaine | 10-12 |
-| Semaine 2 — WE (sam + dim) | 16 |
-| Semaine 2 — Semaine | 10-12 |
-| Semaine 3 — WE (sam + dim) | 16 |
-| Semaine 3 — Semaine | 10-12 |
-| Semaine 4 — WE (sam + dim) | 16 |
-| Semaine 4 — Semaine | 5-6 |
-| **Total estimé** | **~91–98h** |
+| Bloc | Heures | Notes |
+|------|--------|-------|
+| Semaine 1 — WE (dimanche 29 mars) | 8 | |
+| Semaine 1 — Semaine (30 mars – 4 avril) | 18-22 | +1-2h/après-midi ajoutées |
+| Semaine 2 — WE (sam 5 + dim 6 avril) | 16 | |
+| Semaine 2 — Semaine (7–11 avril) | 10-12 | |
+| Semaine 3 — WE (sam 12 + dim 13 avril) | 16 | |
+| Semaine 3 — Semaine (14–18 avril) | 10-12 | |
+| Semaine 4 — WE Pâques (18-19 avril) | 0 | ⚠️ Non disponible |
+| Semaine 4 — Semaine (20–25 avril) | 12-15 | Contenu redistribué |
+| **Total estimé** | **~90–101h** | Dans l'enveloppe cible |
 
-Il reste une marge de ~10-20h pour les imprévus, les approfondissements, et le grappillage en soirée.
+La perte du weekend de Pâques (~16h) est compensée par les heures supplémentaires de la semaine 1 (~8-10h de gain) et une semaine 4 en semaine plus chargée.
 
 ---
 
