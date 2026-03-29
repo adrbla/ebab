@@ -6,22 +6,25 @@
 - [x] Launch DR prompts and receive reports — completed 2026-03-28, saved in `context/references/dr-reports/`
 - [x] Define the 4-week roadmap — completed 2026-03-28, see `context/roadmap.md`
 - [x] **SUNDAY 29**: Install Desktop Commander MCP server on Élie's Mac — completed 2026-03-29
-- [x] **SUNDAY 29**: Set up NotebookLM (2 notebooks: "Socle IA" + "AI & Finance") — first podcast + quiz done — completed 2026-03-29
+- [x] **SUNDAY 29**: Set up NotebookLM (2 notebooks: "Socle IA" + "AI & Finance") — completed 2026-03-29
+  - "Socle IA": 1 source (DR socle gen AI), podcast + quiz done
+  - "AI & Finance" (The Augmented Analyst): 3 DR sources, podcast (long/deep dive) + quiz (difficile) + 3 fiches sets (DR1 NBIM / DR2 Norway / DR3 buy-side) générés
 - [x] **SUNDAY 29**: Conceive OpenClaw setup with Adrien → `output/openclaw-design.md` — completed 2026-03-29
 - [x] **SUNDAY 29**: Install OpenClaw on Mac Mini + Telegram connected + repo `framework/openclaw-elie/` created — completed 2026-03-29
+- [x] **SUNDAY 29**: Install cc-openclaw (9 slash commands Claude Code) — completed 2026-03-29 (via Claude Code session)
+- [x] **SUNDAY 29**: Configure OpenClaw capabilities 1-4 (veille NBIM, Norway actors, AI buy-side, daily briefing 07h30) — completed 2026-03-29 (18 feeds RSS, cron 07h30 Oslo)
 - [x] **SUNDAY 29**: Explore finn.no — calibrate keywords for OpenClaw skill #5 — completed 2026-03-29
 
 ## Next (upcoming — week 1 weekdays + week 2)
-- [ ] **WEEK 1**: Install cc-openclaw skills ([rahulsub-be/cc-openclaw](https://github.com/rahulsub-be/cc-openclaw)) — 9 slash commands (new-agent, add-channel, add-cron, add-secret, status, restart, etc.) — requires `claude` CLI installed
-- [ ] **WEEK 1**: Session Claude Code `framework/openclaw-elie/` — configure capabilities 1-4 (veille NBIM, Norway actors, AI buy-side, daily briefing 07h30)
-- [ ] **WEEK 1**: NotebookLM — 3 épisodes thématiques "Socle IA" (tokens/transformer, prompt engineering, RAG/agents) + épisode "AI & Finance" (NBIM + Norway)
-- [ ] NotebookLM learning path: podcasts interactifs (3 épisodes socle IA, 2 épisodes finance), quiz Hard, flashcards — throughout week 1
-- [ ] OpenClaw: configure first skills (web search, RSS feeds), test daily briefing — Friday week 1
-- [ ] Explore ClawHub: browse existing skills, install 2-3 relevant ones — Friday evening week 1
-- [ ] **Advanced Vibe Coding + Sécurité setup** : installer et comprendre 5 outils (Superpowers, Everything Claude Code, GET SHIT DONE, Claude-Guardrails, sandboxing natif) — commandes de base, être capable d'expliquer chaque outil — Saturday week 2 afternoon, avant premiers pas vibe-coding
-- [ ] NotebookLM advanced: Debate episodes, targeted deep dives on thesis construction + NBIM vibe-coding — week 2 weekend
+- [ ] **WEEK 1**: NotebookLM — écouter podcast "AI & Finance" en mode interactif, faire quiz + fiches DR1/DR2/DR3
+- [ ] **WEEK 1**: NotebookLM — 3 épisodes thématiques "Socle IA" (tokens/transformer, prompt engineering, RAG/agents)
+- [ ] **WEEK 1**: Recevoir et valider premier briefing OpenClaw Telegram (lundi 30 mars, 07h30)
+- [ ] **WEEK 1**: OpenClaw capability #5 (job postings finn.no) — keywords calibrés : `investeringsanalytiker OR kapitalforvaltning OR aksjeanalytiker OR porteføljeforvalter`
+- [ ] **WEEK 1**: OpenClaw capability #6 (stock initial take) — choisir API financière (Yahoo Finance / Alpha Vantage / FMP)
+- [ ] Explore ClawHub: browse existing skills, install 2-3 relevant ones
+- [ ] **Advanced Vibe Coding + Sécurité setup** : installer et comprendre 5 outils (Superpowers, Everything Claude Code, GET SHIT DONE, Claude-Guardrails, sandboxing natif) — Saturday week 2 afternoon, avant premiers pas vibe-coding
+- [ ] NotebookLM advanced: Debate episodes, deep dives on thesis construction + NBIM vibe-coding — week 2 weekend
 - [ ] Write personal synthesis: "Ce que je comprends de l'AI dans la finance en 2026" — Saturday week 2
-- [ ] OpenClaw: finance-specific skills, custom MCP servers, "company primer" workflow — Sunday week 2
 - [ ] Conceive micro-app(s) with Adrien in Cowork — Saturday week 2 afternoon
 - [ ] Start vibe-coding micro-app with Claude Code (new repo `framework/micro-app-elie/`) — Saturday week 2
 

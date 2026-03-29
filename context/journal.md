@@ -201,3 +201,31 @@
 - Radar : Investeringsanalytiker Pensjonskassen — deadline 10 avril
 
 ***
+
+## 2026-03-29 — NotebookLM "AI & Finance" + clôture de session (Élie B.)
+
+**What we did**:
+- **NotebookLM "The Augmented Analyst"** (3 sources : DR1-NBIM, DR2-Norway, DR3-buy-side) — Studio complet généré :
+  - **Podcast** : Analyse approfondie, Long, en anglais, focus calibré (NBIM Strategy 2028 + Investment Simulator + paysage Norway + profil analyst attendu pour 2026)
+  - **Quiz** : Difficile, Plus de questions, focus NBIM + Norway actors + buy-side analyst workflow
+  - **Fiches DR1** (NBIM) : Plus de cartes, Difficile — Investment Simulator, Strategy 2028, vibe-coding, ESG screening Claude, critères d'embauche
+  - **Fiches DR2** (Norway landscape) : Plus de cartes, Difficile — Storebrand, Ferd, DNB AM, KLP, maturity tiers, signaux hiring
+  - **Fiches DR3** (buy-side global) : Plus de cartes, Difficile — workflow analyst AI-augmenté, outils top funds 2025-2026, alpha generation, normes professionnelles
+- **cc-openclaw + capabilities 1-4** : confirmés comme déjà accomplis en session Claude Code parallèle (lu dans `framework/openclaw-elie/context/journal.md`)
+- **Backlog + journal mis à jour** et pushés sur GitHub
+
+**Session close — état au 29 mars soir** :
+- OpenClaw : gateway actif, 18 feeds configurés, briefing 07h30 Oslo actif → **premier briefing demain lundi 30 mars**
+- NotebookLM : 2 notebooks armés, 6 Studio outputs disponibles (podcast + quiz + 3 decks fiches)
+- finn.no : keywords calibrés, prêts pour capability #5
+- cc-openclaw : 9 slash commands installés dans Claude Code
+- GitHub : tout pushé, à jour
+
+**Next steps pour la semaine** :
+- Lundi matin : valider réception briefing Telegram 07h30
+- Semaine : écouter podcast "AI & Finance" en mode interactif (pauses + questions)
+- Semaine : faire quiz DR1/DR2/DR3 (difficile) + réviser avec les fiches
+- Semaine : 3 épisodes thématiques "Socle IA" à générer (tokens/transformer, prompt engineering, RAG/agents)
+- Claude Code : capability #5 (finn.no) + capability #6 (stock initial take, choix API financière)
+
+***
