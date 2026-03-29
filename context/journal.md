@@ -152,3 +152,52 @@
 - 2026-04-05 : session advanced vibe coding + sécurité avant premiers pas micro-app
 
 ***
+
+## 2026-03-29 — Premier jour complet Élie — NotebookLM + OpenClaw + finn.no (Élie B.)
+
+**Goal**: Première session active d'Élie — installer et configurer les outils, explorer le marché emploi norvégien.
+
+**What we did**:
+- **NotebookLM** — configuré 2 notebooks : "Socle IA" (DR socle générative AI uploadé) et "AI & Finance" (3 DR reports NBIM/Norway/buy-side). Élie a généré son premier podcast Audio Overview en mode interactif. Premier quiz complété — a confirmé que les concepts probabilistes étaient déjà connus, calibration utile.
+- **OpenClaw installé sur Mac Mini** — full stack opérationnel :
+  - `openclaw onboard` exécuté dans terminal (TUI interactif → nécessite terminal natif, pas Desktop Commander)
+  - Gemini API configuré comme moteur de web search (Brave Search n'est plus gratuit depuis févr. 2026)
+  - Telegram bot créé via BotFather, token configuré
+  - Gateway lancé comme LaunchAgent (persistant après reboot)
+  - Allowlist sécurité : ID Telegram numérique d'Élie (`8742203868`) ajouté dans `~/.openclaw/openclaw.json`
+  - Pairing approuvé via `openclaw pairing approve telegram V27EXQSR`
+  - Statut final : gateway actif, Telegram connecté, modèle claude-sonnet-4-6, 0 critical warnings
+- **Framework repo openclaw-elie créé** :
+  - `CLAUDE.md` complet (6 capabilities, calibration philosophie investissement, protocole de session)
+  - `context/backlog.md` et `context/journal.md` initialisés
+  - Repo sur GitHub Élie, Adrien ajouté comme collaborateur
+- **Exploration finn.no** — calibration du skill #5 (job postings) :
+  - Query large (`forvalter OR aksjeanalytiker OR ...`) → 726 résultats, 90%+ de bruit (gestionnaires de propriété, admins IT, etc.)
+  - Query ciblée (`investeringsanalytiker OR kapitalforvaltning OR aksjeanalytiker`) → 22 résultats, beaucoup plus propre
+  - Seul posting vraiment aligné trouvé : **Investeringsanalytiker – Kapitalforvaltning** chez Pensjonskassen (NOK 57Mrd, équipe 4 personnes, report au CIO, deadline 10 avril)
+  - LinkedIn : seulement 2 résultats — finn.no est le canal dominant pour le marché norvégien
+  - Permian (fund admin/accountant PE) : 2 rôles postés — davantage back-office
+
+**Important decisions**:
+- Keywords OpenClaw skill #5 calibrés : `investeringsanalytiker OR kapitalforvaltning OR aksjeanalytiker OR porteføljeforvalter` (pas "forvalter" seul — trop de bruit)
+- Monitoring direct des career pages (NBIM, Storebrand, DNB AM, Ferd, KLP) plus fiable pour les rôles seniors
+- finn.no : vérification quotidienne suffisante (postings restent actifs 9-26 jours)
+- Brave Search supprimé du plan — Gemini (Google Search) retenu comme moteur gratuit pour OpenClaw
+
+**Repo structure clarification** (réponse à question d'Élie) :
+- Les deux repos sont correctement séparés — ils ne sont PAS imbriqués
+- `ebab/` → `/Users/elie/Documents/Project/ebab/` (git root = ebab/)
+- `openclaw-elie/` → `/Users/elie/Documents/Project/framework/openclaw-elie/` (git root = openclaw-elie/)
+- Ces deux dossiers sont des **siblings** dans `/Users/elie/Documents/Project/` — aucun problème de git nested
+
+**Open questions**:
+- **Pour Élie** : cc-openclaw (9 slash commands Claude Code) à installer dans une prochaine session Claude Code
+- **Pour Adrien** : Valider la calibration skill #5 et les keywords finn.no avant config capabilities 1-4
+
+**Next steps**:
+- Session Claude Code `framework/openclaw-elie/` : configurer capabilities 1-4 (veille NBIM, Norway, AI buy-side, briefing 07h30)
+- Installer cc-openclaw via `git clone` + `claude skill install` dans le terminal
+- NotebookLM : 3 épisodes thématiques "Socle IA" + épisode "AI & Finance"
+- Radar : Investeringsanalytiker Pensjonskassen — deadline 10 avril
+
+***

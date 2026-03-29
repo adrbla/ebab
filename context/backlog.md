@@ -1,17 +1,20 @@
 # Backlog – EBAB
 
 ## Now (immediate priority)
-- [x] Bootstrap interview with Élie (Cowork session → elie-profile.md) — completed 2026-03-28
+- [x] Bootstrap interview avec Élie (Cowork session → elie-profile.md) — completed 2026-03-28
 - [x] Prepare calibrated Deep Research prompts (3) — completed 2026-03-28
 - [x] Launch DR prompts and receive reports — completed 2026-03-28, saved in `context/references/dr-reports/`
 - [x] Define the 4-week roadmap — completed 2026-03-28, see `context/roadmap.md`
-- [ ] **SUNDAY 29**: Install Desktop Commander MCP server on Élie's Mac (prérequis pour git depuis Cowork)
-- [ ] **SUNDAY 29**: Set up NotebookLM (2 notebooks: "Socle IA" + "AI & Finance") — generate podcasts, do first quiz
-- [ ] **SUNDAY 29**: Conceive OpenClaw setup with Adrien → `output/openclaw-design.md`
-- [ ] **SUNDAY 29**: Install OpenClaw on Mac Mini with Claude Code (new repo `framework/openclaw-elie/`)
-- [ ] **SUNDAY 29**: Install cc-openclaw skills ([rahulsub-be/cc-openclaw](https://github.com/rahulsub-be/cc-openclaw)) — 9 slash commands pour piloter OpenClaw depuis Claude Code (new-agent, add-channel, add-cron, add-secret, status, restart, etc.)
+- [x] **SUNDAY 29**: Install Desktop Commander MCP server on Élie's Mac — completed 2026-03-29
+- [x] **SUNDAY 29**: Set up NotebookLM (2 notebooks: "Socle IA" + "AI & Finance") — first podcast + quiz done — completed 2026-03-29
+- [x] **SUNDAY 29**: Conceive OpenClaw setup with Adrien → `output/openclaw-design.md` — completed 2026-03-29
+- [x] **SUNDAY 29**: Install OpenClaw on Mac Mini + Telegram connected + repo `framework/openclaw-elie/` created — completed 2026-03-29
+- [x] **SUNDAY 29**: Explore finn.no — calibrate keywords for OpenClaw skill #5 — completed 2026-03-29
 
 ## Next (upcoming — week 1 weekdays + week 2)
+- [ ] **WEEK 1**: Install cc-openclaw skills ([rahulsub-be/cc-openclaw](https://github.com/rahulsub-be/cc-openclaw)) — 9 slash commands (new-agent, add-channel, add-cron, add-secret, status, restart, etc.) — requires `claude` CLI installed
+- [ ] **WEEK 1**: Session Claude Code `framework/openclaw-elie/` — configure capabilities 1-4 (veille NBIM, Norway actors, AI buy-side, daily briefing 07h30)
+- [ ] **WEEK 1**: NotebookLM — 3 épisodes thématiques "Socle IA" (tokens/transformer, prompt engineering, RAG/agents) + épisode "AI & Finance" (NBIM + Norway)
 - [ ] NotebookLM learning path: podcasts interactifs (3 épisodes socle IA, 2 épisodes finance), quiz Hard, flashcards — throughout week 1
 - [ ] OpenClaw: configure first skills (web search, RSS feeds), test daily briefing — Friday week 1
 - [ ] Explore ClawHub: browse existing skills, install 2-3 relevant ones — Friday evening week 1
@@ -36,4 +39,4 @@
 *This backlog is not closed — new items will emerge from working sessions.*
 
 ***
-*Last updated: 2026-03-28*
+*Last updated: 2026-03-29*
