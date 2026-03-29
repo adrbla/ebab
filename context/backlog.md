@@ -5,6 +5,7 @@
 - [x] Prepare calibrated Deep Research prompts (3) — completed 2026-03-28
 - [x] Launch DR prompts and receive reports — completed 2026-03-28, saved in `context/references/dr-reports/`
 - [x] Define the 4-week roadmap — completed 2026-03-28, see `context/roadmap.md`
+- [ ] **SUNDAY 29**: Install Desktop Commander MCP server on Élie's Mac (prérequis pour git depuis Cowork)
 - [ ] **SUNDAY 29**: Set up NotebookLM (2 notebooks: "Socle IA" + "AI & Finance") — generate podcasts, do first quiz
 - [ ] **SUNDAY 29**: Conceive OpenClaw setup with Adrien → `output/openclaw-design.md`
 - [ ] **SUNDAY 29**: Install OpenClaw on Mac Mini with Claude Code (new repo `framework/openclaw-elie/`)
