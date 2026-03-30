@@ -236,7 +236,7 @@
 
 **What happened**:
 - Le briefing quotidien OpenClaw de 07h30 n'a pas été envoyé sur Telegram — le Mac Mini d'Élie était éteint.
-- Décision : migrer OpenClaw sur un VPS Hetzner CX23 (2 vCPU, 4GB RAM, 40GB SSD). Adrien prépare un domaine + sous-domaine.
+- Décision : migrer OpenClaw sur un VPS Hetzner CX23 (2 vCPU, 4GB RAM, 40GB SSD). Domaine enregistré : `elibla.com` — page racine + sous-domaines pour les apps/installs.
 - Déploiement prévu le 2026-03-30 au soir.
 
 **Important decisions**:
