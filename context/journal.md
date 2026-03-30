@@ -199,3 +199,33 @@
 - Capability #6 (stock initial take, choix API financière)
 
 ***
+
+## 2026-03-30 — Oslo Relocation Outreach — audit + plan + drafts (Élie B.)
+
+**Note**: Session parallèle au déploiement VPS, non directement liée au programme AI literacy mais importante comme contexte du projet global (move to Norway).
+
+**What was done** (session séparée) :
+- Audit complet des 49 contacts Oslo emailed depuis janvier 2026 (Gmail + Google Sheet "Feuille 3")
+- Taux de réponse global : **45%** (22/49), 15 calls/meetings, 3 referrals générés
+- Créé `Oslo_Outreach_Action_Plan.xlsx` (3 tabs : Contact Tracker, Dashboard, Action Plan)
+- Mappé le programme du voyage Oslo : **Thu Apr 23 / Fri Apr 24 / Mon Apr 27**
+- Créé **11 drafts Gmail** (threaded sur conversations existantes) : confirmations + coffee proposals
+
+**Confirmed meetings April trip** :
+- Thu Apr 23 10:30am — Finance People
+- Thu Apr 23 2:00pm — Knut Johan Hellandsvik (DNB AM)
+- Fri Apr 24 10:00am — Einar Mæle / Asbjørn Jørgensen (Ascender)
+- Mon Apr 27 10:00am — Dagfin Norum (Storebrand)
+
+**Warm contacts (calls done)** : Espen (Longship), Hild (KinderStiff), Vegard (Aeternum), Johanna (FSN), Eyvind (KLP), Alexander Miller (ODIN), Christer (Tindam), Andreas Petterøe (Taiga), Henrik (Oslo FO), Charlie (Ferd), Stein Egil (Stokke)
+
+**Open items** :
+- Envoyer les 11 drafts Gmail
+- Supprimer 2 vieux drafts Knut/Dagfin (mauvais jour de la semaine)
+- Email Alexander Kopp mi-avril
+- Préparer visual track record pour Vegard/Aeternum
+- Update Eyvind Holt (KLP)
+
+**Full session log** : `context/references/Oslo_Relocation_Session_Journal.md`
+
+***

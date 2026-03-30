@@ -12,7 +12,7 @@
 |------|-------|---------|-----|
 | 2026-03-28 | Inside NBIM's AI playbook to hone investment edge | Top1000funds.com | https://www.top1000funds.com/2025/10/inside-nbims-ai-playbook-to-hone-investment-edge/ |
 | 2026-03-28 | How Norwegian giant NBIM spots portfolio managers' biases using AI | Investment Magazine | https://www.investmentmagazine.com.au/2025/06/how-norwegian-giant-nbim-spots-portfolio-managers-biases-using-ai/ |
-| 2026-03-28 | Norway sovereign wealth fund using Anthropic's Claude AI for ESG screening | CNBC | https://www.cnbc.com/2026/02/26/norway-sovereign-wealth-fund-nbim-investment-ai-esg-claude.html |
+| 2026-03-28 | Norway sovereign wealth fund using Anthropic's Claude AI for ESG screening | CNBC | https://www.cnbc.com/2026/02/26/norway-wealth-fund-nbim-investment-ai-esg-claude.html |
 | 2026-03-28 | NBIM prioritises trading efficiency, AI and culture in three-year plan | Top1000funds.com | https://www.top1000funds.com/2026/01/nbim-prioritises-trading-efficiency-ai-and-culture-in-three-year-plan/ |
 | 2026-03-28 | Norway's Oil Fund Turns to AI for ESG Risk Screening | NordSip | https://nordsip.com/2026/03/20/norways-oil-fund-turns-to-ai-for-esg-risk-screening/ |
 | 2026-03-28 | NBIM on AI cultural and organisational integration | Top1000funds.com | https://www.top1000funds.com/2025/08/attacking-on-all-sides-nbim-on-ai-cultural-and-organisational-integration/ |
@@ -31,6 +31,12 @@
 | 2026-03-29 | Claude-Guardrails | Sécurité (hooks) | https://github.com/dwarvesf/claude-guardrails | Deny rules, scan anti-injection, protect .env/SSH |
 | 2026-03-29 | cc-openclaw | Claude Code skills pour OpenClaw | https://github.com/rahulsub-be/cc-openclaw | 9 slash commands : new-agent, add-channel, add-cron, etc. |
 | 2026-03-29 | Managing OpenClaw with Claude Code | Article (Substack) | https://trilogyai.substack.com/p/managing-openclaw-with-claude-code | Référence pour cc-openclaw |
+
+## Session outputs & working documents
+| Date | Title / Description | Type | Location |
+|------|---------------------|------|----------|
+| 2026-03-30 | Oslo Relocation Outreach — audit + action plan + drafts Gmail | Session journal | `context/references/Oslo_Relocation_Session_Journal.md` |
+| 2026-03-30 | Oslo Outreach Action Plan | Excel (3 tabs) | `Oslo_Outreach_Action_Plan.xlsx` (workspace folder) |
 
 ## Articles & publications
 | Date | Title | Author/Source | Location |
@@ -62,4 +68,4 @@
 | 2026-03-28 | AI in Buy-Side Investment Management — global convergence 2025-2026 | Deep Research | `context/references/dr-reports/DR3-AI in Buy-Side Investment Management.md` |
 
 ***
-*Last updated: 2026-03-28*
+*Last updated: 2026-03-30*
