@@ -71,3 +71,15 @@
 **Consequences**: Élie needs `gh` CLI authenticated on his Mac. Desktop Commander needed in Cowork to execute git operations. Framework generation happens at repo creation time (OpenClaw: Sunday 29, micro-app: week 2).
 
 ***
+
+## 2026-03-30 – Déployer OpenClaw sur VPS Hetzner (pas Mac Mini)
+
+**Context**: Le briefing quotidien du 2026-03-30 n'a pas été envoyé sur Telegram parce que le Mac Mini d'Élie était éteint. Un assistant AI qui dépend d'une machine allumée 24/7 n'est pas fiable.
+
+**Decision**: Migrer OpenClaw sur un VPS Hetzner CX23 (2 vCPU, 4GB RAM, 40GB SSD, cost-optimized). Adrien prépare un domaine et mappe un sous-domaine. Déploiement prévu le 2026-03-30 au soir.
+
+**Rejected alternatives**: Garder sur Mac Mini (pas fiable — dépend de l'uptime de la machine d'Élie), VPS plus gros (surdimensionné pour OpenClaw).
+
+**Consequences**: OpenClaw tourne 24/7 indépendamment du Mac d'Élie. Le briefing quotidien devient fiable. Le repo `openclaw-elie/` devra être adapté pour refléter le déploiement distant.
+
+***

@@ -229,3 +229,22 @@
 - Claude Code : capability #5 (finn.no) + capability #6 (stock initial take, choix API financière)
 
 ***
+
+## 2026-03-30 — Briefing raté + décision migration VPS (Adrien B.)
+
+**Goal**: Constater le problème d'uptime et décider de la solution.
+
+**What happened**:
+- Le briefing quotidien OpenClaw de 07h30 n'a pas été envoyé sur Telegram — le Mac Mini d'Élie était éteint.
+- Décision : migrer OpenClaw sur un VPS Hetzner CX23 (2 vCPU, 4GB RAM, 40GB SSD). Adrien prépare un domaine + sous-domaine.
+- Déploiement prévu le 2026-03-30 au soir.
+
+**Important decisions**:
+- VPS Hetzner CX23 pour héberger OpenClaw 24/7 (voir `context/decisions.md`)
+- Le Mac Mini reste l'environnement de dev/config ; le VPS est l'environnement de production
+
+**Next steps**:
+- 2026-03-30 soir : provisionner VPS, configurer domaine/sous-domaine, déployer OpenClaw
+- Valider que le briefing du 2026-03-31 arrive bien sur Telegram
+
+***

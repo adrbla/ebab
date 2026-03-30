@@ -15,6 +15,10 @@
 - [x] **SUNDAY 29**: Configure OpenClaw capabilities 1-4 (veille NBIM, Norway actors, AI buy-side, daily briefing 07h30) — completed 2026-03-29 (18 feeds RSS, cron 07h30 Oslo)
 - [x] **SUNDAY 29**: Explore finn.no — calibrate keywords for OpenClaw skill #5 — completed 2026-03-29
 
+## Now (immediate priority)
+- [ ] **2026-03-30 (lundi soir)**: Déployer OpenClaw sur VPS Hetzner CX23 (2 vCPU, 4GB RAM, 40GB SSD) — Adrien prépare un domaine + sous-domaine, migration depuis Mac Mini
+- [ ] **2026-03-30**: Valider premier briefing OpenClaw Telegram (07h30) — ⚠️ échoué ce matin (Mac éteint), devrait fonctionner après migration VPS
+
 ## Next (upcoming — week 1 weekdays + week 2)
 - [ ] **WEEK 1**: NotebookLM — écouter podcast "AI & Finance" en mode interactif, faire quiz + fiches DR1/DR2/DR3
 - [ ] **WEEK 1**: NotebookLM — 3 épisodes thématiques "Socle IA" (tokens/transformer, prompt engineering, RAG/agents)
