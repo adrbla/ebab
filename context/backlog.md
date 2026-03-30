@@ -14,15 +14,15 @@
 - [x] **SUNDAY 29**: Install cc-openclaw (9 slash commands Claude Code) — completed 2026-03-29 (via Claude Code session)
 - [x] **SUNDAY 29**: Configure OpenClaw capabilities 1-4 (veille NBIM, Norway actors, AI buy-side, daily briefing 07h30) — completed 2026-03-29 (18 feeds RSS, cron 07h30 Oslo)
 - [x] **SUNDAY 29**: Explore finn.no — calibrate keywords for OpenClaw skill #5 — completed 2026-03-29
+- [x] **MONDAY 30**: Provisionner VPS Hetzner elibla (178.104.112.7) — completed 2026-03-30 (CX23, Nuremberg, Ubuntu 24.04, Node.js 22.22.0 installé)
 
 ## Now (immediate priority)
-- [ ] **2026-03-30 (lundi soir)**: Déployer OpenClaw sur VPS Hetzner CX23 (2 vCPU, 4GB RAM, 40GB SSD) — Adrien prépare un domaine + sous-domaine, migration depuis Mac Mini
-- [ ] **2026-03-30**: Valider premier briefing OpenClaw Telegram (07h30) — ⚠️ échoué ce matin (Mac éteint), devrait fonctionner après migration VPS
+- [ ] **2026-03-30 (lundi soir)**: Déployer OpenClaw sur VPS — install + onboard + migration config + cron 07h30 → **via Claude Code** dans `framework/openclaw-elie/`
+- [ ] **2026-03-31 07h30**: Valider premier briefing OpenClaw depuis le VPS (⚠️ briefing du 30 mars raté — Mac éteint)
 
 ## Next (upcoming — week 1 weekdays + week 2)
 - [ ] **WEEK 1**: NotebookLM — écouter podcast "AI & Finance" en mode interactif, faire quiz + fiches DR1/DR2/DR3
 - [ ] **WEEK 1**: NotebookLM — 3 épisodes thématiques "Socle IA" (tokens/transformer, prompt engineering, RAG/agents)
-- [ ] **WEEK 1**: Recevoir et valider premier briefing OpenClaw Telegram (lundi 30 mars, 07h30)
 - [ ] **WEEK 1**: OpenClaw capability #5 (job postings finn.no) — keywords calibrés : `investeringsanalytiker OR kapitalforvaltning OR aksjeanalytiker OR porteføljeforvalter`
 - [ ] **WEEK 1**: OpenClaw capability #6 (stock initial take) — choisir API financière (Yahoo Finance / Alpha Vantage / FMP)
 - [ ] Explore ClawHub: browse existing skills, install 2-3 relevant ones
@@ -46,4 +46,4 @@
 *This backlog is not closed — new items will emerge from working sessions.*
 
 ***
-*Last updated: 2026-03-29*
+*Last updated: 2026-03-30*
