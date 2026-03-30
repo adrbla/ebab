@@ -153,3 +153,49 @@
 - Objectif : briefing du **2026-03-31 à 07h30** livré depuis le VPS
 
 ***
+
+## 2026-03-30 — Déploiement OpenClaw sur VPS + DNS (Claude Code)
+
+**Goal**: Migration complète OpenClaw du Mac Mini vers le VPS Hetzner, DNS et HTTPS.
+
+**What was done** (session Claude Code dans `framework/openclaw-elie/`):
+
+1. **OpenClaw installé sur VPS** — `npm install -g openclaw@latest` (v2026.3.28), blogwatcher Go binary installé
+
+2. **Config migrée** — config complète copiée du Mac Mini vers le VPS via SCP :
+   - `openclaw.json` (API keys Anthropic, Gemini, Telegram credentials)
+   - Profils auth, pairing device, cron jobs
+   - DB blogwatcher (`~/.blogwatcher/blogwatcher.db`) avec les 18 feeds + historique articles
+   - Compteur d'erreurs cron réinitialisé (3 timeouts Mac Mini effacés)
+
+3. **Gateway Mac Mini arrêté** — LaunchAgent stoppé, VPS est maintenant l'unique environnement de production
+
+4. **Gateway VPS démarré** — `openclaw gateway install` + `start` via systemd (auto-restart, démarrage automatique au boot)
+
+5. **Health check** — `Telegram: ok (@elie_assistant_bot)` ✅
+
+6. **DNS configuré** — enregistrement A `oc.elibla.com → 178.104.112.7` créé via Hetzner Cloud DNS API (zone ID 1015764)
+
+7. **Caddy reverse proxy** — HTTPS avec certificat Let's Encrypt auto-renouvelé, forwarding vers gateway port 18789
+
+8. **Gateway durci** — `trustedProxies: ["127.0.0.1", "::1"]`, `allowedOrigins: ["https://oc.elibla.com"]`, authentification par mot de passe
+
+9. **Devices appairés** — Mac browser + iPhone approuvés pour le Control UI
+
+10. **Identity bootstrap** — `USER.md` (profil Élie) et `IDENTITY.md` (persona assistant) configurés ; `BOOTSTRAP.md` supprimé
+
+11. **Briefing test déclenché manuellement** — livraison Telegram depuis VPS confirmée ✅
+
+**État final** :
+- Gateway OpenClaw : 24/7 via systemd sur VPS `178.104.112.7`
+- Control UI : https://oc.elibla.com (HTTPS, password auth)
+- Telegram : connecté (@elie_assistant_bot)
+- Briefing quotidien : cron actif, prochain run **2026-03-31 07:30 Europe/Oslo**
+- Mac Mini : plus en production, reste environnement dev/config
+
+**Next steps** :
+- Valider réception briefing Telegram mardi 31 mars 07h30
+- Capability #5 (job postings finn.no)
+- Capability #6 (stock initial take, choix API financière)
+
+***
