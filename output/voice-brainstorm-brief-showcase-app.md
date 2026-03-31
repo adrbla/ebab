@@ -1,100 +1,97 @@
 # Brief — Brainstorming Voice Mode : Showcase App(s)
 
-**Objectif de la session** : Générer et filtrer des idées de micro-applications à construire avec Claude Code pour démontrer une fluency AI crédible en interview. Ce document est ton point de départ — lis-le avant de lancer la session voice, ou demande à Claude de te le résumer à voix haute.
+**Objectif de la session** : Explorer, ouvrir les perspectives, laisser émerger des idées. Ce n'est **pas** une session de décision — c'est une session de réflexion créative. Lis ce document avant de lancer la session voice, ou demande à Claude de te le résumer à voix haute.
 
-**Deadline** : Semaine du 24 avril 2026. Réaliste = 2-3 weekends de build (weeks 3-4 du programme).
+**Posture** : Ping-pong avec Claude. Pose des questions, rebondis, contredis, explore les tangentes. Claude doit te stimuler, te challenger, te surprendre — pas converger trop vite. Si tu sens que la conversation se ferme sur une idée, rouvre-la délibérément.
 
----
+**Attention** : tu as une tendance naturelle à vouloir fermer, choisir, décider rapidement (c'est une qualité d'analyste — mais pas ce qu'on veut ici). Résiste à cette impulsion. Si tu te surprends à dire "ok, on part sur ça" — stop, demande-toi "qu'est-ce que je n'ai pas encore exploré ?". La sélection fera l'objet d'une session séparée (vocal ou écrit, avec Adrien). Ici, on ouvre.
 
-## 1. Ce que tu dois démontrer
-
-Une bonne showcase app prouve **trois choses simultanément** :
-
-1. **Tu comprends le problème** — tu as l'instinct métier pour identifier un vrai pain point dans le workflow d'un analyste ou d'un gérant
-2. **Tu sais utiliser l'IA pour le résoudre** — pas juste "j'ai utilisé ChatGPT", mais tu as conçu un système avec des outils (API, prompts, agents)
-3. **Tu peux l'expliquer simplement** — tu racontes ce que ça fait, pourquoi c'est non-trivial, et ce que tu as appris en le construisant
-
-**Ce que ce n'est PAS** : une app parfaite, scalable, production-ready. C'est un prototype fonctionnel que tu peux démo en 3 minutes et expliquer en 5.
+**Deadline build** : Semaine du 24 avril 2026. Mais la conception est un process — ne la précipite pas.
 
 ---
 
-## 2. Contraintes à garder en tête
+## 1. La vraie question
 
-- **Pas de dev background** — tout est vibe-coded avec Claude Code. La complexité doit rester dans ce que Claude peut construire avec toi en quelques sessions.
-- **Données réelles de préférence** — une app qui tourne sur de vraies données (même publiques) est infiniment plus crédible qu'un mock.
-- **Finance-first** — l'app doit parler à un intervieweur dans la gestion d'actifs. Évite les use cases génériques (résumer des PDFs, traduire du texte...).
-- **1 ou 2 apps max** — mieux vaut une chose solide qu'un portfolio de stubs.
+La question n'est **pas** "quelle app je construis ?" — c'est plus profond que ça :
+
+**Comment l'IA peut-elle changer fondamentalement la façon dont un analyste travaille — pas juste accélérer ce qu'il fait déjà ?**
+
+C'est la distinction clé : **innovation vs. optimisation**.
+
+- **Optimisation** = automatiser un process existant (ex: résumer un earnings call plus vite). Utile, mais pas différenciant. N'importe qui peut le faire avec ChatGPT.
+- **Innovation** = imaginer de nouvelles façons de travailler qui n'existaient pas avant l'IA (ex: un système qui détecte en temps réel les dislocations entre narratif sell-side et signaux fondamentaux). Ça, c'est ce qui fait lever un sourcil en entretien.
+
+Pendant le brainstorm, chaque fois qu'une idée émerge, passe-la au filtre : **est-ce que ça optimise quelque chose d'existant, ou est-ce que ça ouvre une nouvelle possibilité ?** Les deux ont de la valeur, mais explore d'abord le côté innovation.
 
 ---
 
-## 3. Seed ideas — réagis, ne valide pas encore
+## 2. Seed ideas — matériel à réaction
 
-Ces idées viennent du contexte du projet (DR reports + profil Élie + signaux marché Norway). Elles sont là pour stimuler, pas pour contraindre.
+Ces idées viennent du contexte du projet (DR reports + profil Élie + signaux marché Norway). Elles sont là pour **provoquer des réactions**, pas pour être adoptées. Pour chacune, demande-toi : qu'est-ce qui m'attire ? Qu'est-ce qui me laisse froid ? Qu'est-ce que ça m'évoque d'autre ?
 
 ### A — Earnings Signal Extractor
-Prend une transcript d'earnings call (Seeking Alpha, API) et en extrait automatiquement : le tone shift vs dernier quarter, les 3 sujets clés management, les signaux de guidance (upgrade/downgrade implicite), les questions analysts les plus incisives. Output : une fiche structurée en 1 page.
-
-*Pourquoi ça parle* : c'est exactement le workflow manuel d'un analyste L/S. Tu l'as fait des centaines de fois — tu sais où est la valeur.
+Prend une transcript d'earnings call et en extrait automatiquement : tone shift vs dernier quarter, sujets clés management, signaux de guidance implicites, questions analysts les plus incisives. Output : fiche structurée en 1 page.
 
 ### B — Perception Gap Screener
-Pour une liste de tickers, requête automatique de l'estimation consensus (Yahoo Finance API gratuit) + quelques signaux qualitatifs récents (news Google RSS), puis prompt Claude pour scorer chaque position sur un axe "consensus too bullish / too bearish". Output : un tableau de bord simple avec les positions les plus asymétriques.
-
-*Pourquoi ça parle* : c'est ta philosophie d'investissement ("perception gap") codée en outil. Très narrativement fort en interview.
+Pour une liste de tickers : consensus estimates + signaux qualitatifs récents, puis scoring automatique sur un axe "consensus too bullish / too bearish". Tableau de bord des positions les plus asymétriques.
 
 ### C — Nordic AM Radar
-Un mini-dashboard qui agrège les mouvements publics des grands gérants norvégiens (NBIM déclarations, Storebrand rapports, etc.), tague chaque news par secteur/thème, et sort un weekly digest formaté. Version enrichie d'un subset de ce qu'OpenClaw fait déjà — mais avec une UI navigable.
-
-*Pourquoi ça parle* : montre que tu connais le paysage norvégien ET que tu peux construire des outils de veille. Double signal pour NBIM/Storebrand/DNB AM.
+Dashboard qui agrège les mouvements publics des gérants norvégiens (NBIM, Storebrand, etc.), tague par secteur/thème, weekly digest formaté. UI navigable au-delà de ce qu'OpenClaw fait.
 
 ### D — ESG Flag Screener (inspired by NBIM)
-NBIM utilise Claude pour le screening ESG. Tu construis un prototype qui prend un rapport annuel (PDF) ou un article, et génère un "ESG flag report" structuré : controverses identifiées, alignement avec les exclusion criteria typiques (armes, charbon, droits humains), score de risque. Output : fiche en markdown.
-
-*Pourquoi ça parle* : citation directe de NBIM → "j'ai essayé de répliquer ce qu'ils font, voilà ce que ça donne". Très fort pour les entretiens NBIM-adjacent.
+Prend un rapport annuel ou un article, génère un "ESG flag report" : controverses, alignement exclusion criteria, score de risque. Inspiré directement de ce que NBIM fait avec Claude.
 
 ### E — Portfolio Diary / Investment Log
-Une app minimaliste où tu loggues tes thèses d'investissement (ticker, thèse courte, date entry, horizon), et Claude génère automatiquement : un reminder des hypothèses clés à un check-in schedulé, un tableau de bord de cohérence de portefeuille, et une synthèse mensuelle "qu'est-ce qui a changé dans mes convictions". Outil de discipline personnelle pour analyste.
-
-*Pourquoi ça parle* : très "augmented analyst" — tu utilises l'IA pour améliorer ta rigueur de process, pas pour substituer ton jugement.
+Log de thèses d'investissement + Claude génère des reminders, un tableau de cohérence portefeuille, une synthèse mensuelle "qu'est-ce qui a changé dans mes convictions".
 
 ### F — Norwegian Job Pulse
-Version UI de la capability #5 d'OpenClaw : un dashboard qui affiche les job postings finance en Norvège avec tags (type de fonds, séniorité, deadline), filtre par keywords, et ajoute un layer Claude qui score chaque posting sur "fit avec profil analyste L/S". Données réelles (finn.no + career pages).
-
-*Pourquoi ça parle* : outil que tu utilises activement toi-même. Crédible, démontrable, données réelles.
+Dashboard job postings finance en Norvège avec scoring Claude sur "fit avec profil analyste L/S". Données réelles (finn.no).
 
 ---
 
-## 4. Grille de sélection — pour chaque idée, pose-toi ces questions
+## 3. Directions à explorer librement
 
-| Critère | Ce que tu veux |
-|---|---|
-| **Pain réel** | Est-ce que tu as personnellement souffert de ce problème dans ta carrière ? |
-| **Démo en 3 min** | Est-ce qu'on peut voir l'output en live sans avoir besoin d'expliquer 10 minutes de contexte ? |
-| **Données accessibles** | Les données sont-elles disponibles gratuitement ou facilement ? |
-| **Buildable en 2 weekends** | Claude Code peut-il produire un v1 fonctionnel avec toi en 6-8h de sessions ? |
-| **Narrativement fort** | Est-ce que ça raconte une histoire sur *toi* spécifiquement — pas n'importe quel analyste ? |
+Ne reste pas dans les seed ideas ci-dessus. Explore aussi :
 
----
-
-## 5. Ce que tu peux laisser émerger librement
-
-La session voice est faite pour ça — laisse-toi surprendre. Quelques pistes ouvertes à explorer :
-
-- Y a-t-il un moment précis dans ta carrière (Pelham, Trium, Catalyst) où tu t'es dit "si j'avais eu un outil qui faisait X, ça m'aurait sauvé des heures" ?
-- Qu'est-ce qui t'a le plus frustré dans le process de recherche analyste que tu as le plus répété ?
-- Y a-t-il une chose que tu fais manuellement chaque semaine qui est stupidement automatisable ?
-- Qu'est-ce qui impressionnerait *toi* si un candidat te le montrait en entretien ?
+- **Ce qui n'existe pas encore** — quel outil un analyste L/S n'a jamais eu mais dont il rêverait ? Pas un outil qui fait plus vite, un outil qui fait *autrement*.
+- **Les moments de friction** — dans ton workflow quotidien à Trium, Pelham, Catalyst : où est-ce que tu perds du temps, de l'énergie, de la confiance ? Pas seulement "c'est lent" mais "c'est structurellement mal fait".
+- **Le dernier kilomètre** — ton profil montre que tu arrives souvent à 70-80% de conviction mais que le dernier mile est dur. Y a-t-il un outil qui pourrait aider là-dessus spécifiquement ?
+- **L'angle norvégien** — qu'est-ce qu'un outil pourrait montrer sur ta compréhension du marché norvégien qui serait impossible sans AI ?
+- **Le méta** — une app qui montre comment tu *apprends* l'AI (ton propre parcours) pourrait être aussi parlante qu'une app qui *utilise* l'AI.
 
 ---
 
-## 6. Output attendu de la session voice
+## 4. Questions que Claude devrait te poser pendant le brainstorm
+
+(Claude : utilise ces prompts pour relancer la conversation quand elle se stabilise trop vite.)
+
+- "Tu viens de décrire une optimisation — comment on transforme ça en innovation ?"
+- "Si tu avais cet outil, qu'est-ce que tu ferais *différemment* dans ta journée — pas juste plus vite ?"
+- "Qu'est-ce qui impressionnerait *toi* si un candidat te le montrait en entretien ?"
+- "Est-ce que c'est un outil pour toi, ou un outil pour montrer que tu comprends quelque chose ?"
+- "Et si on combinait deux de ces idées ?"
+- "Quel est le truc le plus ambitieux que tu n'oserais pas proposer — et pourquoi tu n'oses pas ?"
+
+---
+
+## 5. Ce que cette session n'est PAS
+
+- **Pas une session de décision** — on ne choisit pas d'app aujourd'hui.
+- **Pas une session de faisabilité** — "est-ce que c'est buildable ?" viendra après, pas maintenant.
+- **Pas une session d'optimisation** — ne te rabats pas sur "le plus simple à faire". Explore d'abord.
+
+La conception se fera avec Adrien (semaine 2). Pour l'instant : ouvre, explore, surprends-toi.
+
+---
+
+## 6. Output attendu
 
 À la fin du brainstorming, tu devrais avoir :
-- 1 ou 2 idées retenues avec une phrase de pitch ("ça fait X, pour Y, en utilisant Z")
-- Un sentiment clair sur l'idée principale vs backup
-- Quelques contraintes/risques identifiés à anticiper
-
-Ce draft sera ensuite travaillé avec Adrien (semaine 2, Saturday) pour finaliser le scope avant le build.
+- Un nuage d'idées — certaines vagues, certaines précises, c'est normal
+- Des fils rouges : quels thèmes reviennent ? Qu'est-ce qui t'excite le plus ?
+- Des questions ouvertes pour la session de conception avec Adrien
+- Surtout : une **énergie** sur 1-2 directions, pas une décision
 
 ---
 
-*Brief préparé le 2026-03-30. Contexte : DR reports NBIM/Norway/buy-side + profil Élie + backlog EBAB.*
+*Brief préparé le 2026-03-30, révisé le 2026-03-31. Contexte : DR reports NBIM/Norway/buy-side + profil Élie + backlog EBAB.*

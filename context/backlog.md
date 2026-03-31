@@ -25,11 +25,14 @@
 - [ ] **WEEK 1**: NotebookLM — 3 épisodes thématiques "Socle IA" (tokens/transformer, prompt engineering, RAG/agents)
 - [ ] **WEEK 1**: OpenClaw capability #5 (job postings finn.no) — keywords calibrés : `investeringsanalytiker OR kapitalforvaltning OR aksjeanalytiker OR porteføljeforvalter`
 - [ ] **WEEK 1**: OpenClaw capability #6 (stock initial take) — choisir API financière (Yahoo Finance / Alpha Vantage / FMP)
+- [ ] **NotebookLM dédié OpenClaw** : créer un notebook avec la doc OpenClaw pour comprendre l'architecture (tools vs. skills, agents, channels, crons, scripts). Élie doit pouvoir expliquer ces notions simplement.
+- [ ] **Concevoir et implémenter un skill custom** avec Claude Code : imaginer un skill spécifique au projet (pas générique), le coder en markdown (SKILL.md), le placer au bon endroit pour qu'il soit utilisable. Exercice meta : comprendre ce qu'est un skill en en créant un.
 - [ ] Explore ClawHub: browse existing skills, install 2-3 relevant ones
 - [ ] **Advanced Vibe Coding + Sécurité setup** : installer et comprendre 5 outils (Superpowers, Everything Claude Code, GET SHIT DONE, Claude-Guardrails, sandboxing natif) — Saturday week 2 afternoon, avant premiers pas vibe-coding
 - [ ] NotebookLM advanced: Debate episodes, deep dives on thesis construction + NBIM vibe-coding — week 2 weekend
 - [ ] Write personal synthesis: "Ce que je comprends de l'AI dans la finance en 2026" — Saturday week 2
-- [ ] Conceive micro-app(s) with Adrien in Cowork — Saturday week 2 afternoon
+- [ ] **Brainstorm showcase app(s) en vocal** : session d'exploration créative, ouvrir les perspectives (innovation vs. optimisation), PAS de sélection — voir `output/voice-brainstorm-brief-showcase-app.md`
+- [ ] **Sélection showcase app(s)** : session séparée (vocal ou écrit, avec Adrien) pour converger sur 1-2 apps — après le brainstorm
 - [ ] Start vibe-coding micro-app with Claude Code (new repo `framework/micro-app-elie/`) — Saturday week 2
 
 ## Later (weeks 3-4)
