@@ -256,3 +256,23 @@
 - Mentionner Oslo semaine du 24 avril pour proposer in-person
 
 ***
+
+## 2026-03-31 — Idée showcase émergente (NotebookLM podcast) (Élie B.)
+
+**Source** : Podcast NotebookLM "The Augmented Analyst" — idée spontanée pendant l'écoute.
+
+**Concept** : pas une app isolée, mais une **démonstration de workflow cognitif** lors d'un entretien. Tu ouvres le laptop et tu montres :
+- Une **RAG architecture** construite pour ingérer 10 ans de données supply chain non-structurées sur une société X — en support d'une thèse fondamentale
+- Un **script agent Python** pour monitorer des manifests en langue locale (ex: ports, déclarations douanières)
+- Des **transcripts de sessions adversariales** avec LLM (red-teaming de ta propre thèse)
+
+L'angle : montrer que tu es l'architecte de ton workflow cognitif — pas un consommateur passif de données via un terminal.
+
+**Pourquoi c'est fort** :
+- Ce n'est pas "une app" — c'est un process de pensée instrumenté
+- Chaque artefact prouve quelque chose de différent : RAG = profondeur technique + investment use case, agent local language = très NBIM-adjacent (ils font exactement ça pour le screening ESG), adversarial transcripts = rigueur intellectuelle, pas juste outil
+- Distinction innovation/optimisation très claire : ce n'est pas faire le même travail plus vite, c'est travailler d'une façon qui n'existait pas avant
+
+**Statut** : idée à explorer dans la session brainstorm — PAS une décision. À conserver sans fermer.
+
+***

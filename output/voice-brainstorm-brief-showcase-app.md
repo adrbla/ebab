@@ -49,6 +49,13 @@ Dashboard job postings finance en Norvège avec scoring Claude sur "fit avec pro
 
 ---
 
+### G — Cognitive Workflow Demo (idée émergente NotebookLM, 2026-03-31)
+Pas une app — une démonstration de process de pensée instrumenté. Tu arrives en entretien, tu ouvres le laptop et tu montres : (1) une RAG architecture construite pour ingérer 10 ans de données supply chain non-structurées sur une société réelle, en support d'une thèse fondamentale ; (2) un script agent qui monitore des manifests en langue locale ; (3) des transcripts de sessions adversariales où tu as red-teamé ta propre thèse avec un LLM. Le fil directeur : tu es l'architecte de ton workflow cognitif, pas un consommateur passif de données.
+
+*Pourquoi c'est différent des autres seeds* : ce n'est pas "regarde ce que j'ai construit", c'est "regarde comment je pense". Les artefacts sont des preuves d'un process, pas d'un produit. Très NBIM-adjacent (ils scannent des sources locales pour ESG — tu feras exactement la même chose pour de l'investment research).
+
+---
+
 ## 3. Directions à explorer librement
 
 Ne reste pas dans les seed ideas ci-dessus. Explore aussi :
