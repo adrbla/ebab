@@ -27,7 +27,7 @@ You are being assessed on:
 ## Core identity
 You are a fundamental, bottom-up investor with experience across both public and private markets. Your edge comes from building differentiated views through deep research, particularly in undercovered or mid-cap companies.
 
-Alongside that, you are actively integrating AI into your workflow — not as a productivity tool, but as a way to improve decision-making and make your thinking more explicit.
+Alongside that, you are genuinely curious about what the equity analyst role *becomes* in the next five years — not just how existing workflows get faster, but what new things become possible that weren't before. You're building the operating system for how you'll work in 2028, not optimising how you work today.
 
 ---
 
@@ -38,9 +38,9 @@ Most candidates:
 - or have linear career paths.
 
 Your differentiation:
-- you emphasise decision-making quality,
-- you have cross-exposure (PE + long/short equities),
-- and you are a thoughtful adopter of tools rather than a passive user.
+- you think about what the role *creates* — new processes, new analytical possibilities — not just what it automates,
+- you have cross-exposure (PE + long/short equities) that gives you a different lens on what matters in investment analysis,
+- and you are someone who builds their own cognitive infrastructure rather than consuming tools passively.
 
 ---
 
@@ -72,13 +72,13 @@ So for me, the goal today is really to understand how you think about the evolut
 # 4. Key Answers (Expanded)
 
 ## 4.1 AI Experience
-The main thing I've done is build a daily AI-driven briefing system that tracks topics I care about — including NBIM, developments in AI, and broader asset management trends — and delivers a structured summary each day.
+The main thing I've done is build a daily AI-driven briefing system — it runs 24/7 on a cloud server, monitors topics I care about including NBIM and developments across asset management, and delivers a structured brief every morning. That's infrastructure I designed and deployed myself.
 
-This helps me filter information more efficiently, but more importantly it gives me a clearer and more consistent starting point for thinking about what actually matters.
+But the part I find more interesting than the automation is what it forces me to articulate: to build a system that monitors the right things, you have to be very explicit about what you actually care about and why. AI makes your thinking visible in a way it wasn't before.
 
-In my day-to-day work, I also use tools like Claude to help structure investment theses, challenge my assumptions, and map different scenarios. For example, I might use it to stress-test a view or to make sure I'm not missing alternative interpretations of the same data.
+In practice, I use AI to challenge my own investment theses — running adversarial sessions where I ask the model to argue the opposite of my view, or to find the assumptions I'm not questioning. That's not about speed. That's a new kind of intellectual process that didn't exist before.
 
-What I'm trying to move towards is using AI not just to be faster, but to make my thinking more explicit — particularly around decision-making. That's where I think the real value is.
+What genuinely excites me is the question of what the analyst role *becomes* — not what it automates. What new analytical possibilities open up? What processes don't exist yet that should? That's the question I'm working on.
 
 ---
 
@@ -105,11 +105,13 @@ That said, I don't aim to be a developer. My objective is not to build technolog
 ---
 
 ## 4.4 Future of the Analyst Role
-I think a lot of the traditional work — gathering and processing information — is becoming increasingly commoditised.
+I think a lot of the traditional work — gathering and processing information — is becoming commoditised quickly. That's the automation part, and it's real but also somewhat obvious.
 
-As a result, the edge shifts away from information itself and towards judgment. That means asking better questions, challenging assumptions more effectively, and making better decisions under uncertainty.
+What I find more interesting is the question on the other side: what becomes *possible* that wasn't before? Analysing ten years of unstructured supply chain data for a single company. Running adversarial red-teaming on your own thesis at 2am. Monitoring local-language sources in markets where you have no analysts on the ground.
 
-In that context, AI doesn't replace the analyst, but it pushes the role to a higher level. It forces you to be clearer in your thinking and more disciplined in how you make decisions.
+These aren't faster versions of things analysts already did. They're new analytical moves. And the analyst who figures out which of these actually generate alpha — and builds the workflow around them — is a different kind of professional than what existed five years ago.
+
+That's the role I'm trying to build toward. Not optimising existing process, but designing the process that doesn't exist yet.
 
 ---
 
