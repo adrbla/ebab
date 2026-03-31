@@ -21,7 +21,7 @@
 - [ ] **MARDI 31 07h30**: Valider réception briefing Telegram depuis VPS (premier briefing de production)
 - [ ] **🔴 PRIORITÉ ABSOLUE — NBIM call** : Contact via ami data team NBIM → HR ouverte à call exploratoire
   - [ ] Envoyer email à ami NBIM avec adresse email Élie pour transmission à HR
-  - [ ] (Optionnel, avant call) Lancer Deep Research ciblé data team NBIM — prompt dans `output/nbim-call-prep-voice-prompt.md`
+  - [ ] (Optionnel, avant call) Lancer Deep Research ciblé active equity team NBIM — prompt dans `output/nbim-call-prep-voice-prompt.md`
   - [ ] Session prep voice mode GPT/Claude — prompt prêt dans `output/nbim-call-prep-voice-prompt.md`
   - [ ] Mentionner voyage Oslo semaine du 24 avril → proposer rencontre in-person
   - [ ] Objectif : être mémorable comme "l'analyste L/S qui comprend vraiment l'AI" → obtenir suite Oslo
