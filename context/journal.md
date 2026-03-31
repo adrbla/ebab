@@ -229,3 +229,30 @@
 **Full session log** : `context/references/Oslo_Relocation_Session_Journal.md`
 
 ***
+
+## 2026-03-31 — NBIM Call Prep — session voice GPT + call brief final (Élie B.)
+
+**Goal**: Préparer le call exploratoire RH NBIM (active equity team) — suite à intro via ami dans la data team.
+
+**What was done**:
+- Créé `output/nbim-call-prep-voice-prompt.md` : system prompt complet pour GPT Voice + Deep Research prompt ciblé active equity team
+- Créé projet GPT "NBIM Interview Prep" avec 3 sources : prep file, DR1-NBIM, elie_profile
+- Session voice GPT [CALL] + [PITCH] + [WEAKNESSES] complétée
+- Produit `output/nbim-call-brief-final.md` : debrief complet de la session (pitch final, réponses clés, forces/faiblesses, règles pratiques, ancre pré-call)
+
+**Key outputs du coaching GPT** :
+- Pitch final calibré : 5 phrases, ~45 secondes, termine sur une question ouverte à NBIM
+- Différenciation validée : "decision-making quality" vs. "speed/efficiency" — rare et aligné avec la philosophie NBIM
+- Risque principal identifié : "thinking out loud" — tendance à partir dans l'abstrait, diluer la clarté
+- 4 règles pratiques : 1 idea + 1 support + 1 conclusion / langage direct / pas de corrections mid-answer / toujours fermer proprement
+- Ancre mentale pré-call : "Be clear. Be simple. Be an investor."
+- 3 questions à poser à HR : profil analyste qui thrive, adoption AI en pratique, différenciation à l'échelle NBIM
+
+**État** : Élie est prêt pour le call dès que schedulé. Étape suivante : envoyer email à l'ami NBIM.
+
+**Open items** :
+- Envoyer email à ami NBIM (adresse email → HR)
+- (Optionnel) Deep Research active equity team avant le call
+- Mentionner Oslo semaine du 24 avril pour proposer in-person
+
+***
