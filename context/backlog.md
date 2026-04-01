@@ -26,14 +26,14 @@
 - [ ] Écouter podcast "AI & Finance" en mode interactif (pauses + questions)
 - [ ] Faire quiz DR1/DR2/DR3 (difficile) + réviser avec les fiches
 - [ ] Enrichir le Notebook "Socle IA" : ajouter des sources, générer de nouveaux épisodes thématiques
-- [ ] Lancer DR OpenClaw — prompt dans `output/dr-prompt-openclaw.md` → sauvegarder output dans `context/references/dr-openclaw-agents.md`
-- [ ] Créer notebook NotebookLM "OpenClaw & Agentic AI" avec output DR — comprendre tools vs. skills, agents, channels, crons
+- [x] Lancer DR OpenClaw — sauvegardé dans `context/references/dr-openclaw-agents.md` — 2026-03-31
+- [x] Créer notebook NotebookLM "OpenClaw & Agentic AI" avec output DR — 2026-03-31
 - [ ] À la fin de chaque session interactive NotebookLM : générer une synthèse, la sauvegarder en markdown dans `context/references/` pour suivre la progression
 
 ### Axe 2 — Pratique
 **OpenClaw** :
-- [ ] Régler le problème d'erreur API limit/rate sur le VPS
-- [ ] Valider briefing Telegram VPS (premier briefing de production)
+- [x] Régler le problème d'erreur API limit/rate sur le VPS — haiku model + --silent flag — 2026-03-31
+- [x] Valider briefing Telegram VPS (premier briefing de production) — 12s, 357-621 tokens ✅ — 2026-03-31
 - [ ] Creuser OpenClaw en général : comprendre l'architecture, les tools, les skills — le notebook NotebookLM dédié aide ici
 - [ ] OpenClaw capability #5 (job postings finn.no)
 - [ ] OpenClaw capability #6 (stock initial take) — choisir API financière
@@ -46,13 +46,15 @@
 - [ ] Après le brainstorm : session d'atterrissage/sélection (avec Adrien). NB : pas forcément une seule app — ça peut être 3 micro-apps (dont une plus importante), ce qui fait 3 repos / sessions de vibe-coding distinctes. À voir.
 
 ### Axe 3 — Contacts Oslo
-- [ ] Envoyer email à ami NBIM (adresse email Élie → transmission à HR)
+- [x] Envoyer email à ami NBIM (adresse email Élie → transmission à HR) — 2026-03-31
+- [x] CV polished — AI bullet rewritten (architectural), Technical tools updated, source of truth Google Docs "CV ELIE BLAISE - APR-26" — 2026-04-01
+- [x] Email HR NBIM (Kristin Birkeland) envoyé — intro via Christian, court et direct, CV en PJ — 2026-04-01
 - [ ] (Optionnel) Deep Research active equity team NBIM — prompt dans `output/nbim-call-prep-voice-prompt.md`
-- [ ] Call HR NBIM — call brief final prêt dans `output/nbim-call-brief-final.md`, mentionner Oslo semaine du 24 avril
+- [ ] Call HR NBIM — call brief final prêt dans `output/nbim-call-brief-final.md`, mentionner Oslo semaine du 23-27 avril pendant le call
 - [ ] Suivre l'avancement des contacts Oslo avec Élie (point régulier)
 
 ### Interview prep infrastructure (quick setup)
-- [ ] Renommer/reconfigurer le projet GPT "NBIM Interview Prep" → **"Interview Prep"** (générique)
+- [x] Renommer/reconfigurer le projet GPT "NBIM Interview Prep" → **"Interview Prep"** (générique) — 2026-03-31
   - Instructions génériques : "At the start of each session, I'll specify which institution and role. Read the relevant context file and adopt the appropriate coaching setup."
   - Sources à uploader au fur et à mesure : un context file par institution (NBIM, DNB AM, Storebrand, Ascender…)
   - Le call brief NBIM existant devient le premier context file institution-specific
@@ -77,4 +79,4 @@
 *This backlog is not closed — new items will emerge from working sessions.*
 
 ***
-*Last updated: 2026-03-31*
+*Last updated: 2026-04-01*

@@ -276,3 +276,73 @@ L'angle : montrer que tu es l'architecte de ton workflow cognitif — pas un con
 **Statut** : idée à explorer dans la session brainstorm — PAS une décision. À conserver sans fermer.
 
 ***
+
+## 2026-03-31 — Daily briefing fix + housekeeping OpenClaw + GitHub (Élie B.)
+
+**Goal**: Corriger le daily briefing (rate limit), housekeeping repo openclaw-elie, DR OpenClaw → NotebookLM.
+
+**What was done**:
+
+1. **Daily briefing fixé** (VPS 178.104.112.7) :
+   - Root cause identifiée : `blogwatcher scan` sans `--silent` retournait le contenu complet de 6247 articles → ~191k tokens par run → rate limit Anthropic
+   - Fix : `blogwatcher scan --silent` + `blogwatcher read-all --yes` (flag non-interactif)
+   - Modèle : `anthropic/claude-sonnet-4-6` → `anthropic/claude-haiku-4-5-20251001` (gateway default + job config)
+   - Prompt simplifié : 4 sections, 1 phrase chacune, format strict
+   - Résultat : 12 secondes de runtime, 357–621 output tokens, status `ok`, livré sur Telegram ✅
+   - Config mise à jour via `openclaw cron edit` (API gateway) — non via fichier direct
+
+2. **NBIM + GPT "Interview Prep"** :
+   - Email ami NBIM envoyé ✅
+   - Projet GPT renommé "Interview Prep" (générique) ✅
+
+3. **DR OpenClaw → NotebookLM** :
+   - DR lancé sur ChatGPT (prompt dans `output/dr-prompt-openclaw.md`)
+   - Output sauvegardé : `context/references/dr-openclaw-agents.md`
+   - Notebook NotebookLM "OpenClaw & Agentic AI" créé avec ce DR comme source ✅
+
+4. **finn.no capability #5** — parked :
+   - API finn.no fermée aux non-business
+   - Option retenue pour plus tard : alertes email finn.no → agent (via Gmail MCP)
+
+5. **Repo openclaw-elie → GitHub** :
+   - `CLAUDE.md` mis à jour : VPS context, modèle haiku, status capabilities 1-4 live
+   - Repo créé sur GitHub : `https://github.com/elbl454/openclaw-elie` (Private)
+   - Adrien (`adrbla`) invité comme collaborateur — invitation en attente
+   - 6 commits poussés sur `main`
+
+**Open items** :
+- Call HR NBIM (dès que schedulé)
+- Session brainstorm showcase app (vendredi/week-end)
+- Capability #5 finn.no (via email alerts — Next)
+- Adrien accepter invitation GitHub
+
+***
+
+## 2026-04-01 — CV polish + NBIM HR email (Élie B.)
+
+**Goal**: Polish CV for all Norwegian investor roles (not only NBIM), send intro email to NBIM HR.
+
+**What we did**:
+
+1. **CV polished** (source of truth: Google Docs "CV ELIE BLAISE - APR-26"):
+   - AI bullet at Trium rewritten — from tool-listing to architectural: "Designed and deployed a personal AI research stack (agentic monitoring workflows, automated feed surveillance and LLM-assisted due diligence) to expand coverage capacity and surface differentiated insights at a scale not previously feasible"
+   - Technical tools updated: "AI research infrastructure (agentic workflows, Claude, Cursor), Bloomberg Terminal, Excel/VBA modelling, Python (data analysis & automation)"
+   - Profile section scoped and consciously deferred — not needed for today, can add for portal applications later
+   - Full CV text saved in `context/references/cv-current.md`
+   - Old versions (MAR-26 .docx, .pdf) moved to Trash; PDF export (APR-26) in Downloads
+
+2. **NBIM HR email sent** — to Kristin Birkeland (kristin.birkeland@nbim.no):
+   - Warm intro via Christian
+   - Short, direct, no role specified (she didn't mention one)
+   - CV attached
+   - Oslo week (23–27 Apr) intentionally kept for the call, not mentioned in email
+
+**Decisions**:
+- CV bullet defensibility confirmed: all three claims (agentic workflows, feed surveillance, LLM-assisted DD) are backed by real infrastructure built during EBAB. Prep a 2-min "walk me through your AI stack" answer before the call.
+- Profile section: add for portal applications where CV lands without email context; not needed when email carries the intro.
+
+**Open items**:
+- Call HR NBIM (Kristin Birkeland) — mention Oslo 23–27 Apr during the call
+- Session brainstorm showcase app (vendredi/week-end)
+
+***

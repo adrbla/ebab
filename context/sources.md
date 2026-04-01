@@ -1,11 +1,12 @@
 # Sources – EBAB
 
-## External research — DR prompts
+## External research — DR prompts & outputs
 | Date | Title / Description | Location |
 |------|---------------------|----------|
 | 2026-03-28 | DR prompt: NBIM AI strategy | `output/DR1-prompt-NBIM.md` |
 | 2026-03-28 | DR prompt: Norwegian investment actors | `output/DR2-prompt-Norway-actors.md` |
 | 2026-03-28 | DR prompt: AI adoption buy-side global | `output/DR3-prompt-buyside-AI-global.md` |
+| 2026-03-31 | DR output: Personal AI Agents through the lens of OpenClaw | `context/references/dr-openclaw-agents.md` |
 
 ## Web sources consulted (exploratory research 2026-03-28)
 | Date | Title | Source | URL |
