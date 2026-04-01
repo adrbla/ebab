@@ -18,37 +18,50 @@
 
 ## Now (cette semaine — 31 mars au 4 avril)
 
-### 🔴 NBIM call (priorité absolue)
-- [ ] Envoyer email à ami NBIM (adresse email Élie → transmission à HR)
-- [ ] Valider briefing Telegram VPS mardi 31/03 07h30
-- [ ] (Optionnel) Deep Research active equity team NBIM — prompt dans `output/nbim-call-prep-voice-prompt.md`
-- [ ] Call HR NBIM — call brief final prêt dans `output/nbim-call-brief-final.md`, mentionner Oslo semaine du 24 avril
+**Après pull** : réintégrer le journal de la session brouillons de mails Oslo (fichier généré dans une autre session Cowork, non pushé). L'ajouter au repo et le commiter.
 
-### 📚 NotebookLM (autonome — mardi + mercredi)
+**Revoir et ajuster la roadmap avec Claude** en équilibrant les 3 axes ci-dessous.
+
+### Axe 1 — Connaissances générales (NotebookLM)
 - [ ] Écouter podcast "AI & Finance" en mode interactif (pauses + questions)
 - [ ] Faire quiz DR1/DR2/DR3 (difficile) + réviser avec les fiches
+- [ ] Enrichir le Notebook "Socle IA" : ajouter des sources, générer de nouveaux épisodes thématiques
 - [ ] Lancer DR OpenClaw — prompt dans `output/dr-prompt-openclaw.md` → sauvegarder output dans `context/references/dr-openclaw-agents.md`
-- [ ] Créer notebook NotebookLM "OpenClaw & Agentic AI" avec output DR
+- [ ] Créer notebook NotebookLM "OpenClaw & Agentic AI" avec output DR — comprendre tools vs. skills, agents, channels, crons
+- [ ] À la fin de chaque session interactive NotebookLM : générer une synthèse, la sauvegarder en markdown dans `context/references/` pour suivre la progression
 
-### 🎙️ Brainstorming showcase app (vocal, autonome — jeudi ou vendredi)
-- [ ] Session voice brainstorm — brief dans `output/voice-brainstorm-brief-showcase-app.md` (seed G = cognitive workflow demo émergé du podcast)
-- [ ] PAS de sélection pendant ce brainstorm — juste explorer
+### Axe 2 — Pratique
+**OpenClaw** :
+- [ ] Régler le problème d'erreur API limit/rate sur le VPS
+- [ ] Valider briefing Telegram VPS (premier briefing de production)
+- [ ] Creuser OpenClaw en général : comprendre l'architecture, les tools, les skills — le notebook NotebookLM dédié aide ici
+- [ ] OpenClaw capability #5 (job postings finn.no)
+- [ ] OpenClaw capability #6 (stock initial take) — choisir API financière
 
-### 💼 Interview prep infrastructure (quick setup)
+**Skills Claude Code** :
+- [ ] Concevoir et implémenter 1 ou plusieurs skills custom avec Claude (dans Cowork) — exercice meta : comprendre ce qu'est un skill en en créant un. Le skill doit être spécifique (pas générique), placé au bon endroit pour être mobilisable par Claude.
+
+**Showcase app(s)** :
+- [ ] Session voice brainstorm — brief dans `output/voice-brainstorm-brief-showcase-app.md`. Explorer, ouvrir, NE PAS fermer.
+- [ ] Après le brainstorm : session d'atterrissage/sélection (avec Adrien). NB : pas forcément une seule app — ça peut être 3 micro-apps (dont une plus importante), ce qui fait 3 repos / sessions de vibe-coding distinctes. À voir.
+
+### Axe 3 — Contacts Oslo
+- [ ] Envoyer email à ami NBIM (adresse email Élie → transmission à HR)
+- [ ] (Optionnel) Deep Research active equity team NBIM — prompt dans `output/nbim-call-prep-voice-prompt.md`
+- [ ] Call HR NBIM — call brief final prêt dans `output/nbim-call-brief-final.md`, mentionner Oslo semaine du 24 avril
+- [ ] Suivre l'avancement des contacts Oslo avec Élie (point régulier)
+
+### Interview prep infrastructure (quick setup)
 - [ ] Renommer/reconfigurer le projet GPT "NBIM Interview Prep" → **"Interview Prep"** (générique)
   - Instructions génériques : "At the start of each session, I'll specify which institution and role. Read the relevant context file and adopt the appropriate coaching setup."
   - Sources à uploader au fur et à mesure : un context file par institution (NBIM, DNB AM, Storebrand, Ascender…)
   - Le call brief NBIM existant devient le premier context file institution-specific
 
 ## Next (week 2 — week-end 5-6 avril)
-- [ ] **Sélection showcase app(s)** avec Adrien — session Cowork ou vocal après le brainstorm
-- [ ] **OpenClaw capability #5** (job postings finn.no) — session Claude Code dans `framework/openclaw-elie/`
-- [ ] **OpenClaw capability #6** (stock initial take) — choisir API financière, session Claude Code
-- [ ] **Concevoir et implémenter un skill custom** avec Claude Code — exercice méta (comprendre skill en en créant un)
 - [ ] Explore ClawHub : browse existing skills, install 2-3 relevant ones
 - [ ] NotebookLM "Socle IA" : 3 épisodes thématiques (tokens/transformer, prompt engineering, RAG/agents)
 - [ ] **Advanced Vibe Coding + Sécurité setup** : 5 outils (Superpowers, Everything Claude Code, GET SHIT DONE, Claude-Guardrails, sandboxing) — samedi week 2 avant vibe-coding
-- [ ] Start vibe-coding micro-app avec Claude Code (nouveau repo `framework/micro-app-elie/`) — week-end semaine 2
+- [ ] Start vibe-coding showcase app(s) avec Claude Code — potentiellement plusieurs repos si plusieurs micro-apps
 
 ## Later (weeks 3-4)
 - [ ] Micro-app intensive build
