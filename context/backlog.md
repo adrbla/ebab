@@ -53,6 +53,11 @@
 - [ ] Call HR NBIM — call brief final prêt dans `output/nbim-call-brief-final.md`, mentionner Oslo semaine du 23-27 avril pendant le call
 - [ ] Suivre l'avancement des contacts Oslo avec Élie (point régulier)
 
+### CV annexes (PPT pages)
+Brief complet dans `context/references/track-record-ai-page-brief.md`
+- [ ] Track record page (PPT) — "Selected Investment Track Record" : chart Elie Ideas vs MSCI World (equal-weighted), key stats, 2–3 case studies. **Bloqué** : entry dates + returns à fournir par Élie (WDC, DSV, SigmaRoc, Arcosa, Fielmann)
+- [ ] AI workflows page (PPT) — "Applied AI – Real Workflows in Investment Process" : 3 workflows avec screenshots réels (Idea Screening, Earnings Call Decomp, Variant View Builder). Build avec WDC / SKF ou autre idée réelle.
+
 ### Interview prep infrastructure (quick setup)
 - [x] Renommer/reconfigurer le projet GPT "NBIM Interview Prep" → **"Interview Prep"** (générique) — 2026-03-31
   - Instructions génériques : "At the start of each session, I'll specify which institution and role. Read the relevant context file and adopt the appropriate coaching setup."
@@ -79,4 +84,4 @@
 *This backlog is not closed — new items will emerge from working sessions.*
 
 ***
-*Last updated: 2026-04-01*
+*Last updated: 2026-04-01 (evening)*
