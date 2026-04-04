@@ -42,7 +42,7 @@
 ## Articles & publications
 | Date | Title | Author/Source | Location |
 |------|-------|---------------|----------|
-| — | *To be populated as research progresses* | — | — |
+| 2026-04-01 | The Exoskeleton Hypothesis — AI augmentation framework for hedge fund analysts | Brett Caughran / Fundamental Edge | `context/references/exoskeleton-hypothesis-v-final.pdf` (also uploaded to NotebookLM ebab) |
 
 ## Data sources
 | Date | Description | Format | Location |
@@ -69,4 +69,4 @@
 | 2026-03-28 | AI in Buy-Side Investment Management — global convergence 2025-2026 | Deep Research | `context/references/dr-reports/DR3-AI in Buy-Side Investment Management.md` |
 
 ***
-*Last updated: 2026-03-30*
+*Last updated: 2026-04-01*
